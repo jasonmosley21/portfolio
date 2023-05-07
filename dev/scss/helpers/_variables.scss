@@ -4,18 +4,27 @@
 
 // Define the breakpoints
 // Small tablets and large smartphones
-$screen-sm-min: 576px;
+$screen-sm-min: 360px;
 
 // Small tablets
-$screen-md-min: 768px;
+$screen-md-min: 744px;
 
 // Large tablets and small desktops
-$screen-lg-min: 1024px;
+$screen-lg-min: 1280px;
 
 // Large desktops
-$screen-xl-min: 1200px;
+$screen-xl-min: 1400px;
 
 
 // Colors
-$white: #fff;
-$black: #000;
+$iceblue: #a4daf0;
+$lighticeblue: #e9f6fb;
+$darkiceblue: #0f465c;
+$oreoblack: #323334;
+$oreowhite: #c9cacb;
+$lightwhite: #e5e6e6;
+$darkwhite: #98999a;
+$lightblack: #656667;
+$darkblack: #191a1a;
+$darkmodebg: linear-gradient(180deg, $oreoblack, $darkiceblue, $darkblack);
+$lightmodebg: linear-gradient(180deg, $iceblue, $oreowhite, $lighticeblue);;
