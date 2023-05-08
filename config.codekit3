@@ -45,11 +45,50 @@
       "oAP" : "\/deploy\/home.html",
       "oF" : 0
     },
+    "\/deploy\/img\/4DX.png" : {
+      "ft" : 32768,
+      "iS" : 5950698,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/4DX.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/adrianetext.png" : {
+      "ft" : 32768,
+      "iS" : 4871556,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/adrianetext.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/alana.png" : {
       "ft" : 32768,
       "iS" : 1528573,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/alana.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/anamericaninparis.png" : {
+      "ft" : 32768,
+      "iS" : 4868332,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/anamericaninparis.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -188,6 +227,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/iconicchair.png" : {
+      "ft" : 32768,
+      "iS" : 507334,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/iconicchair.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/lace2.0.png" : {
       "ft" : 32768,
       "iS" : 699954,
@@ -206,6 +258,19 @@
       "iS" : 3599586,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/madisoncharm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/modemoderne.png" : {
+      "ft" : 32768,
+      "iS" : 4361750,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/modemoderne.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -305,6 +370,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/thewagner.png" : {
+      "ft" : 32768,
+      "iS" : 3332924,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/thewagner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/websitelogo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -347,12 +425,12 @@
       "oAP" : "\/deploy\/artwork.html",
       "oF" : 2
     },
-    "\/dev\/content\/artwork\/intro.kit" : {
+    "\/dev\/content\/artwork\/artworkintro.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/artwork\/intro.html",
+      "oAP" : "\/dev\/content\/artwork\/artworkintro.html",
       "oF" : 0
     },
     "\/dev\/content\/artwork\/works.kit" : {
@@ -361,6 +439,22 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/artwork\/works.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/designs\/designintro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/designs\/designintro.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/designs\/designworks.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/designs\/designworks.html",
       "oF" : 0
     },
     "\/dev\/content\/home\/aboutme.kit" : {
