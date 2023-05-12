@@ -11,26 +11,26 @@
 
 <body>
     <nav>
-        <ul>
-            <li>
+        <ul id="navmenu">
+            <li class="btn">
                 <a href="designs.html">
-                    <i class="fa-solid fa-pen-nib"></i>
+                    <i class="fa-solid fa-pen-nib icons"></i>
                     <h5>
                         designs
                     </h5>
                 </a>
             </li>
-            <li>
+            <li class="btn">
                 <a href="home.html">
-                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-house icons"></i>
                     <h5>
                         home
                     </h5>
                 </a>
             </li>
-            <li>
+            <li class="btn">
                 <a href="artwork.html">
-                    <i class="fa-solid fa-paintbrush"></i>
+                    <i class="fa-solid fa-paintbrush icons"></i>
                     <h5>
                         artwork
                     </h5>
@@ -38,47 +38,57 @@
             </li>
         </ul>
     </nav>
-    <section>
-            <img src="img/websitelogo.svg" alt="oreo panda logo">
-            <article>
-                <h1>
-                    artist & designer
-                </h1>
-                <h3>
-                    Just a kid, making dreams a reality.
-                </h3>
+    <section class="grid spacing">
+            <article class="content" id="landing">
+                <img src="img/websitelogo.svg" alt="oreo panda logo" id="logo">
+                <aside id="landingtext">
+                    <h1>
+                        artist & designer
+                    </h1>
+                    <h3>
+                        Just a kid, making dreams a reality.
+                    </h3>
+                </aside>
             </article>
         </section>
-    <section>
-                <img src="img/profilepic.png" alt="Picture of Oreo">
-                <article>
+    <section class="grid spacing">
+                <article class="content" id="aboutme">
+                    <img src="img/profilepic.png" alt="Picture of Oreo" id="profilepic">
                     <section>
-                        <h2>
-                            Name: Oreo
-                        </h2>
-                        <h4>
-                            From: Memphis, TN 
-                            <br> 
-                            <br>
-                            Degree: Bachelor of Science in Graphic Design
-                            <br>
-                            <br>
-                            Skills: Illustrator; Photoshop; InDesign; Figma; HTML/SCSS; After Effects
-                            <br>
-                            <br>
-                            Hobbies: Illustration; Writing; TCG's; Movies
-                        </h4>
-                    </section>
-                    <section>
-                        <button>
-                            <i class="fa-brands fa-instagram"></i>
-                        </button>
-                        <button>
-                            <i class="fa-brands fa-twitter"></i>
-                        </button>
-                        <button>
-                            <i class="fa-brands fa-linkedin"></i>
-                        </button>
+                        <article id="aboutmetext">
+                            <h2>
+                                Name: Oreo
+                            </h2>
+                            <h4>
+                                From: Memphis, TN 
+                                <br> 
+                                <br>
+                                Degree: Bachelor of Science in Graphic Design
+                                <br>
+                                <br>
+                                Skills: Illustrator; Photoshop; InDesign; Figma; HTML/SCSS; After Effects
+                                <br>
+                                <br>
+                                Hobbies: Illustration; Writing; TCG's; Movies
+                            </h4>
+                        </article>
+                        <ul id="socials">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </section>
                 </article>
             </section>

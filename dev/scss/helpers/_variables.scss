@@ -27,4 +27,7 @@ $darkwhite: #98999a;
 $lightblack: #656667;
 $darkblack: #191a1a;
 $darkmodebg: linear-gradient(180deg, $oreoblack, $darkiceblue, $darkblack);
-$lightmodebg: linear-gradient(180deg, $iceblue, $oreowhite, $lighticeblue);;
+$lightmodebg: linear-gradient(180deg, $iceblue, $oreowhite, $lighticeblue);
+$oreoblacktransp: rgba(50, 51, 52, 0.75);
+$darkicebluetransp: rgba(15, 70, 92, 0.5);
+$darkiceblueinvis: rgba(15, 70, 92, 0);

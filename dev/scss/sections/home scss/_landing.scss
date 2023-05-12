@@ -1,0 +1,14 @@
+#landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #logo{
+        width: 256px;
+    }
+    #landingtext{
+        h1{
+            margin-bottom: 8px;
+        }
+    }
+}
