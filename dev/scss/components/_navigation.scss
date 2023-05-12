@@ -7,7 +7,9 @@ nav{
     position: fixed;
     width: 398px;
     height: 72px;
-    left: 16px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    right: 50%;
     top: 711px;
     background: linear-gradient(180deg, $darkicebluetransp 32.81%, $darkiceblueinvis 100%), $oreoblacktransp;
     background-blend-mode: multiply, normal;
