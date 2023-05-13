@@ -560,7 +560,7 @@ nav {
   display: flex;
   gap: 48px;
 }
-#aboutme #socials i {
-  font-size: 2rem;
+#aboutme #socials img {
+  height: 32px;
   color: #c9cacb;
 }

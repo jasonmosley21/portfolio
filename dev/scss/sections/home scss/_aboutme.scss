@@ -29,8 +29,8 @@
     #socials{
         display: flex;
         gap: 48px;
-        i{
-            font-size: rem-calc(32);
+        img{
+            height: 32px;
             color: $oreowhite;
         }
     }
