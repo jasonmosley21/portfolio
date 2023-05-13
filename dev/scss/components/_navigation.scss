@@ -10,7 +10,7 @@ nav{
     left: 50%;
     transform: translate(-50%, 50%);
     right: 50%;
-    top: 711px;
+    bottom: 711px;
     background: linear-gradient(180deg, $darkicebluetransp 32.81%, $darkiceblueinvis 100%), $oreoblacktransp;
     background-blend-mode: multiply, normal;
     border-radius: 21px;
@@ -32,6 +32,7 @@ nav{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             text-decoration: none;
             img{
                 width: 24px;
