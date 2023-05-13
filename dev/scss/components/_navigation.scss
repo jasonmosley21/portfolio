@@ -32,11 +32,11 @@ nav{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            
-            i{
-                font-size: 24px;
-                color: $oreowhite;
+            text-decoration: none;
+            img{
+                width: 24px;
             }
         }
+       
     }
 }

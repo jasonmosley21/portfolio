@@ -504,10 +504,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
-#navmenu li a i {
-  font-size: 24px;
-  color: #c9cacb;
+#navmenu li a img {
+  width: 24px;
 }
 
 /* =============
