@@ -589,7 +589,7 @@ nav section #navmenu li a img {
 }
 @media (min-width: 744px) {
   #aboutme #profilepic {
-    width: 62.5;
+    width: 62.5%;
     margin-bottom: 32px;
   }
 }
