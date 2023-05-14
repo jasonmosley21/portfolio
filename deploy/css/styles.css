@@ -569,3 +569,19 @@ nav section {
   height: 24px;
   color: #c9cacb;
 }
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#intro h3 {
+  margin-top: 8px;
+  width: 50%;
+}
+
+#works ul li img {
+  width: 100%;
+  border-radius: 1000px;
+  margin-bottom: 128px;
+}
