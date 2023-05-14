@@ -365,6 +365,11 @@ template {
 .spacing {
   padding: 80px 0 80px 0;
 }
+@media (min-width: 744px) {
+  .spacing {
+    padding: 160px 0 160px 0;
+  }
+}
 
 body {
   background: linear-gradient(180deg, #323334, #0f465c, #191a1a);
@@ -375,6 +380,21 @@ ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+}
+
+@media (min-width: 744px) {
+  .beforetablet {
+    display: none;
+  }
+}
+
+.aftertablet {
+  display: none;
+}
+@media (min-width: 744px) {
+  .aftertablet {
+    display: block;
+  }
 }
 
 /* =============
@@ -481,10 +501,12 @@ nav {
   position: fixed;
   width: 100%;
   bottom: 24px;
+  justify-items: center;
 }
 nav section {
   display: flex;
   width: 100%;
+  max-width: 398px;
   height: 72px;
   background: linear-gradient(180deg, rgba(15, 70, 92, 0.5) 32.81%, rgba(15, 70, 92, 0) 100%), rgba(50, 51, 52, 0.75);
   background-blend-mode: multiply, normal;
@@ -493,21 +515,28 @@ nav section {
   align-items: center;
   justify-content: center;
 }
-
-#navmenu {
+@media (min-width: 744px) {
+  nav section {
+    max-width: 488px;
+    height: 88px;
+  }
+}
+nav section #navmenu {
   display: flex;
   gap: 32px;
   justify-content: center;
   align-items: center;
 }
-#navmenu li a {
+nav section #navmenu li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  width: 56px;
+  height: 56px;
 }
-#navmenu li a img {
+nav section #navmenu li a img {
   width: 24px;
 }
 
@@ -517,16 +546,35 @@ nav section {
 /* =============
     Footer
 ============= */
-#landing {
+@media (min-width: 744px) {
+  #landinggrid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". . content content content content . .";
+    gap: 16px;
+  }
+}
+#landinggrid #landing {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#landing #logo {
+#landinggrid #landing #logo {
   width: 256px;
 }
-#landing #landingtext h1 {
+@media (min-width: 744px) {
+  #landinggrid #landing #logo {
+    width: 100%;
+  }
+}
+#landinggrid #landing #landingtext h1 {
   margin-bottom: 8px;
+  margin-top: 16px;
+}
+@media (min-width: 744px) {
+  #landinggrid #landing #landingtext h1 {
+    margin-bottom: 16px;
+    margin-top: 32px;
+  }
 }
 
 #aboutme {
@@ -535,9 +583,9 @@ nav section {
   align-items: center;
 }
 #aboutme #profilepic {
-  width: 84%;
+  width: 62.5%;
   border-radius: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 #aboutme section {
   display: flex;
@@ -545,28 +593,38 @@ nav section {
   align-items: flex-end;
   width: 84%;
 }
+@media (min-width: 744px) {
+  #aboutme section {
+    width: 72%;
+  }
+}
 #aboutme section #aboutmetext {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 #aboutme section #aboutmetext h2 {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 #aboutme section #aboutmetext h4 {
   width: 57%;
+}
+@media (min-width: 744px) {
+  #aboutme section #aboutmetext h4 {
+    width: 70%;
+  }
 }
 #aboutme #socials {
   display: flex;
   gap: 40px;
 }
 #aboutme #socials a {
-  height: 44px;
-  width: 44px;
+  height: 88px;
+  width: 88px;
 }
 #aboutme #socials a img {
-  height: 24px;
+  height: 32px;
   color: #c9cacb;
 }
 

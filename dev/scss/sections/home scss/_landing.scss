@@ -1,14 +1,29 @@
-#landing{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    #logo{
-        width: 256px;
+#landinggrid{
+    @include tablet {
+        grid-template-columns: repeat(8,1fr);
+        grid-template-areas: ". . content content content content . .";
+        gap: 16px;
     }
-    #landingtext{
-        h1{
-            margin-bottom: 8px;
+    #landing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        #logo{
+            width: 256px;
+            @include tablet{
+                width: 100%;
+            }
+        }
+        #landingtext{
+            h1{
+                margin-bottom: 8px;
+                margin-top: 16px;
+                @include tablet {
+                    margin-bottom: 16px;
+                    margin-top: 32px;
+                }
+            }
         }
     }
 }

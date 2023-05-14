@@ -4,25 +4,31 @@
     align-items: center;
 
     #profilepic{
-        width: 84%;
+        width: 62.5%;
         border-radius: 100%;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
     }
     section{
         display: flex;
             flex-direction: column;
             align-items: flex-end;
             width: 84%;
+            @include tablet {
+                width: 72%;
+            }
         #aboutmetext{
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            margin-bottom: 8px;
+            margin-bottom: 16px;
             h2{
-                margin-bottom: 8px;
+                margin-bottom: 16px;
             }
             h4{
                 width: 57%;
+                @include tablet{
+                    width: 70%;
+                }
             }
         }
     }
@@ -30,10 +36,10 @@
         display: flex;
         gap: 40px;
         a{
-            height: 44px;
-            width: 44px;
+            height: 88px;
+            width: 88px;
             img{
-                height: 24px;
+                height: 32px;
                 color: $oreowhite;
             }
         }
