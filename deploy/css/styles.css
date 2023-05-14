@@ -477,14 +477,14 @@ textarea {
     Navigation
 ============= */
 nav {
-  display: flex;
   position: fixed;
-  width: 398px;
+  width: 100%;
+  bottom: 24px;
+}
+nav section {
+  display: flex;
+  width: 100%;
   height: 72px;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  right: 50%;
-  top: 400px;
   background: linear-gradient(180deg, rgba(15, 70, 92, 0.5) 32.81%, rgba(15, 70, 92, 0) 100%), rgba(50, 51, 52, 0.75);
   background-blend-mode: multiply, normal;
   border-radius: 21px;
