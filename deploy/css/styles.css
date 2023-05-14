@@ -583,9 +583,15 @@ nav section #navmenu li a img {
   align-items: center;
 }
 #aboutme #profilepic {
-  width: 62.5%;
+  width: 84%;
   border-radius: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+@media (min-width: 744px) {
+  #aboutme #profilepic {
+    width: 62.5;
+    margin-bottom: 32px;
+  }
 }
 #aboutme section {
   display: flex;
@@ -602,10 +608,20 @@ nav section #navmenu li a img {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+@media (min-width: 744px) {
+  #aboutme section #aboutmetext {
+    margin-bottom: 16px;
+  }
 }
 #aboutme section #aboutmetext h2 {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+@media (min-width: 744px) {
+  #aboutme section #aboutmetext h2 {
+    margin-bottom: 16px;
+  }
 }
 #aboutme section #aboutmetext h4 {
   width: 57%;
@@ -620,12 +636,23 @@ nav section #navmenu li a img {
   gap: 40px;
 }
 #aboutme #socials a {
-  height: 88px;
-  width: 88px;
+  height: 44px;
+  width: 44px;
+}
+@media (min-width: 744px) {
+  #aboutme #socials a {
+    height: 88px;
+    width: 88px;
+  }
 }
 #aboutme #socials a img {
-  height: 32px;
+  height: 24px;
   color: #c9cacb;
+}
+@media (min-width: 744px) {
+  #aboutme #socials a img {
+    height: 32px;
+  }
 }
 
 #artintro {
