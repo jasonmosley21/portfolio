@@ -570,17 +570,33 @@ nav section {
   color: #c9cacb;
 }
 
-#intro {
+#artintro {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-#intro h3 {
+#artintro h3 {
   margin-top: 8px;
   width: 50%;
 }
 
 #works ul li img {
+  width: 100%;
+  border-radius: 1000px;
+  margin-bottom: 128px;
+}
+
+#designintro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#designintro h3 {
+  margin-top: 8px;
+  width: 50%;
+}
+
+#designworks ul li img {
   width: 100%;
   border-radius: 1000px;
   margin-bottom: 128px;
