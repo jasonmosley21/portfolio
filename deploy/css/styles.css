@@ -368,6 +368,7 @@ template {
 
 body {
   background: linear-gradient(180deg, #323334, #0f465c, #191a1a);
+  padding-bottom: 24px;
 }
 
 ul {
@@ -548,19 +549,23 @@ nav section {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 #aboutme section #aboutmetext h2 {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 #aboutme section #aboutmetext h4 {
   width: 57%;
 }
 #aboutme #socials {
   display: flex;
-  gap: 48px;
+  gap: 40px;
 }
-#aboutme #socials img {
-  height: 32px;
+#aboutme #socials a {
+  height: 44px;
+  width: 44px;
+}
+#aboutme #socials a img {
+  height: 24px;
   color: #c9cacb;
 }
