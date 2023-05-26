@@ -551,6 +551,15 @@ nav section #navmenu li a img {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas: ". . content content content content . .";
     gap: 16px;
+    margin: 0 16px;
+  }
+}
+@media (min-width: 1280px) {
+  #landinggrid {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    align-items: center;
   }
 }
 #landinggrid #landing {
@@ -558,13 +567,25 @@ nav section #navmenu li a img {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 1280px) {
+  #landinggrid #landing {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". logo logo logo logo . title title title title title .";
+    gap: 16px;
+  }
+}
 #landinggrid #landing #logo {
+  grid-area: logo;
   width: 256px;
 }
 @media (min-width: 744px) {
   #landinggrid #landing #logo {
     width: 100%;
   }
+}
+#landinggrid #landing #landingtext {
+  grid-area: title;
 }
 #landinggrid #landing #landingtext h1 {
   margin-bottom: 8px;
@@ -655,34 +676,315 @@ nav section #navmenu li a img {
   }
 }
 
-#artintro {
+@media (min-width: 744px) {
+  #artintro {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". . . content content content content .";
+    margin: 0 16px;
+    gap: 16px;
+  }
+}
+#artintro article {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-#artintro h3 {
+#artintro article h3 {
   margin-top: 8px;
-  width: 50%;
+  width: 45%;
+}
+@media (min-width: 744px) {
+  #artintro article h3 {
+    width: 74%;
+  }
 }
 
+@media (min-width: 744px) {
+  #works ul {
+    display: grid;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3 item3" "item2 item2 item2 item2 item2 item2 item2 item2 item2 item4 item4 item4 item4 item4 item4 item4" ". . item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 . ." "item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item7 item7 item7 item7 item7" ". . item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 . ." ". . item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 . ." "item10 item10 item10 item10 item10 item10 item10 item11 item11 item11 item11 item11 item11 item11 item11 item11" "item10 item10 item10 item10 item10 item10 item10 item12 item12 item12 item12 item12 item12 item12 item12 item12" ". . item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 . ." "item14 item14 item14 item14 item14 item14 item14 item14 item15 item15 item15 item15 item15 item15 item15 item15" ". . item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 . ." ". . item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 . ." "item18 item18 item18 item18 item18 item18 item18 item18 item19 item19 item19 item19 item19 item19 item19 item19" ". . item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 . .";
+  }
+}
+#works ul #item1 {
+  grid-area: item1;
+}
+@media (min-width: 744px) {
+  #works ul #item1 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item2 {
+  grid-area: item2;
+}
+@media (min-width: 744px) {
+  #works ul #item2 img {
+    width: 107%;
+  }
+}
+#works ul #item3 {
+  grid-area: item3;
+}
+@media (min-width: 744px) {
+  #works ul #item3 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item3 img {
+    width: 90.5%;
+  }
+}
+#works ul #item4 {
+  grid-area: item4;
+}
+@media (min-width: 744px) {
+  #works ul #item4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 178px;
+  }
+  #works ul #item4 img {
+    width: 90.5%;
+  }
+}
+#works ul #item5 {
+  grid-area: item5;
+}
+@media (min-width: 744px) {
+  #works ul #item5 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item6 {
+  grid-area: item6;
+}
+@media (min-width: 744px) {
+  #works ul #item6 {
+    margin-bottom: 178px;
+  }
+  #works ul #item6 img {
+    width: 94%;
+  }
+}
+#works ul #item7 {
+  grid-area: item7;
+}
+@media (min-width: 744px) {
+  #works ul #item7 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item7 img {
+    width: 114%;
+  }
+}
+#works ul #item8 {
+  grid-area: item8;
+}
+@media (min-width: 744px) {
+  #works ul #item8 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item9 {
+  grid-area: item9;
+}
+@media (min-width: 744px) {
+  #works ul #item9 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item10 {
+  grid-area: item10;
+}
+@media (min-width: 744px) {
+  #works ul #item10 img {
+    width: 105%;
+  }
+}
+#works ul #item11 {
+  grid-area: item11;
+}
+@media (min-width: 744px) {
+  #works ul #item11 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item11 img {
+    width: 96%;
+  }
+}
+#works ul #item12 {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: item12;
+}
+@media (min-width: 744px) {
+  #works ul #item12 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 178px;
+  }
+  #works ul #item12 img {
+    width: 96%;
+  }
+}
+#works ul #item13 {
+  grid-area: item13;
+}
+@media (min-width: 744px) {
+  #works ul #item13 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item14 {
+  grid-area: item14;
+}
+@media (min-width: 744px) {
+  #works ul #item14 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item15 {
+  grid-area: item15;
+}
+#works ul #item16 {
+  grid-area: item16;
+}
+@media (min-width: 744px) {
+  #works ul #item16 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item17 {
+  grid-area: item17;
+}
+@media (min-width: 744px) {
+  #works ul #item17 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item18 {
+  grid-area: item18;
+}
+@media (min-width: 744px) {
+  #works ul #item18 {
+    margin-bottom: 178px;
+  }
+}
+#works ul #item19 {
+  grid-area: item19;
+}
+#works ul #item20 {
+  grid-area: item20;
+}
 #works ul li img {
   width: 100%;
   border-radius: 1000px;
   margin-bottom: 128px;
 }
+@media (min-width: 744px) {
+  #works ul li img {
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+}
 
-#designintro {
+@media (min-width: 744px) {
+  #designintro {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". . . content content content content .";
+    margin: 0 16px;
+    gap: 16px;
+  }
+}
+#designintro article {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-#designintro h3 {
+#designintro article h3 {
   margin-top: 8px;
-  width: 50%;
+  width: 45%;
+}
+@media (min-width: 744px) {
+  #designintro article h3 {
+    width: 74%;
+  }
 }
 
+@media (min-width: 744px) {
+  #designworks ul {
+    display: grid;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3" "item4 item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5 item5 item5" ". . item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 . .";
+  }
+}
+#designworks ul #item1 {
+  grid-area: item1;
+}
+@media (min-width: 744px) {
+  #designworks ul #item1 img {
+    margin-bottom: 178px;
+  }
+}
+#designworks ul #item2 {
+  grid-area: item2;
+}
+@media (min-width: 744px) {
+  #designworks ul #item2 img {
+    width: 99%;
+    margin-bottom: 178px;
+  }
+}
+#designworks ul #item3 {
+  grid-area: item3;
+}
+@media (min-width: 744px) {
+  #designworks ul #item3 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #designworks ul #item3 img {
+    width: 101%;
+  }
+}
+#designworks ul #item4 {
+  grid-area: item4;
+}
+@media (min-width: 744px) {
+  #designworks ul #item4 img {
+    width: 104%;
+    margin-bottom: 178px;
+  }
+}
+#designworks ul #item5 {
+  grid-area: item5;
+}
+@media (min-width: 744px) {
+  #designworks ul #item5 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #designworks ul #item5 img {
+    width: 97%;
+  }
+}
+#designworks ul #item6 {
+  grid-area: item6;
+}
 #designworks ul li img {
   width: 100%;
   border-radius: 1000px;
   margin-bottom: 128px;
+}
+@media (min-width: 744px) {
+  #designworks ul li img {
+    height: fit-content;
+    margin-bottom: 0px;
+  }
 }
