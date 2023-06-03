@@ -603,7 +603,16 @@ nav section #navmenu li a img {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 1280px) {
+  #aboutme {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". text text text text text text pfp pfp pfp pfp .";
+    gap: 16px;
+  }
+}
 #aboutme #profilepic {
+  grid-area: pfp;
   width: 84%;
   border-radius: 100%;
   margin-bottom: 16px;
@@ -614,7 +623,13 @@ nav section #navmenu li a img {
     margin-bottom: 32px;
   }
 }
+@media (min-width: 1280px) {
+  #aboutme #profilepic {
+    width: 100%;
+  }
+}
 #aboutme section {
+  grid-area: text;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -623,6 +638,12 @@ nav section #navmenu li a img {
 @media (min-width: 744px) {
   #aboutme section {
     width: 72%;
+  }
+}
+@media (min-width: 1280px) {
+  #aboutme section {
+    width: 94.5%;
+    margin-right: auto;
   }
 }
 #aboutme section #aboutmetext {
@@ -650,6 +671,11 @@ nav section #navmenu li a img {
 @media (min-width: 744px) {
   #aboutme section #aboutmetext h4 {
     width: 70%;
+  }
+}
+@media (min-width: 1280px) {
+  #aboutme section #aboutmetext h4 {
+    width: 100%;
   }
 }
 #aboutme #socials {
@@ -684,6 +710,12 @@ nav section #navmenu li a img {
     gap: 16px;
   }
 }
+@media (min-width: 1280px) {
+  #artintro {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". . . . . . content content content content content .";
+  }
+}
 #artintro article {
   display: flex;
   flex-direction: column;
@@ -702,10 +734,16 @@ nav section #navmenu li a img {
 @media (min-width: 744px) {
   #works ul {
     display: grid;
-    column-gap: 16px;
-    row-gap: 16px;
+    column-gap: 32px;
+    row-gap: 32px;
     grid-template-columns: repeat(16, 1fr);
     grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3 item3" "item2 item2 item2 item2 item2 item2 item2 item2 item2 item4 item4 item4 item4 item4 item4 item4" ". . item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 . ." "item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item7 item7 item7 item7 item7" ". . item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 . ." ". . item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 . ." "item10 item10 item10 item10 item10 item10 item10 item11 item11 item11 item11 item11 item11 item11 item11 item11" "item10 item10 item10 item10 item10 item10 item10 item12 item12 item12 item12 item12 item12 item12 item12 item12" ". . item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 . ." "item14 item14 item14 item14 item14 item14 item14 item14 item15 item15 item15 item15 item15 item15 item15 item15" ". . item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 . ." ". . item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 . ." "item18 item18 item18 item18 item18 item18 item18 item18 item19 item19 item19 item19 item19 item19 item19 item19" ". . item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 . .";
+  }
+}
+@media (min-width: 1280px) {
+  #works ul {
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-areas: ". . . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2 item2 item2 . . ." ". . . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item3 item3 item3 item3 item3 item3 item3 item3 . . ." "item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4" "item5 item5 item5 item5 item5 item5 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item7 item7 item7 item7 item7 item7" ". item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item9 item9 item9 item9 item9 item9 item9 item9 ." ". item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item10 item10 item10 item10 item10 item10 item10 item10 ." "item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11" "item12 item12 item12 item12 item12 item12 item12 item12 item12 item12 item12 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13" "item14 item14 item14 item14 item14 item14 item14 . item15 item15 item15 item15 item15 item15 item15 item15 . item16 item16 item16 item16 item16 item16 item16" "item17 item17 item17 item17 item17 . item18 item18 item18 item18 item18 . item19 item19 item19 item19 item19 . . item20 item20 item20 item20 item20";
   }
 }
 #works ul #item1 {
@@ -716,12 +754,28 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  #works ul #item1 img {
+    height: 90vh;
+    width: auto;
+  }
+}
 #works ul #item2 {
   grid-area: item2;
 }
 @media (min-width: 744px) {
   #works ul #item2 img {
     width: 107%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item2 img {
+    width: 100%;
   }
 }
 #works ul #item3 {
@@ -734,6 +788,12 @@ nav section #navmenu li a img {
   }
   #works ul #item3 img {
     width: 90.5%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item3 img {
+    width: 100%;
+    margin-bottom: 256px;
   }
 }
 #works ul #item4 {
@@ -749,12 +809,31 @@ nav section #navmenu li a img {
     width: 90.5%;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item4 {
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  #works ul #item4 img {
+    width: auto;
+    height: 90vh;
+    margin-bottom: 256px;
+  }
+}
 #works ul #item5 {
   grid-area: item5;
 }
 @media (min-width: 744px) {
   #works ul #item5 {
     margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item5 {
+    margin-bottom: 256px;
+  }
+  #works ul #item5 img {
+    width: 123.5%;
   }
 }
 #works ul #item6 {
@@ -766,6 +845,17 @@ nav section #navmenu li a img {
   }
   #works ul #item6 img {
     width: 94%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  #works ul #item6 img {
+    width: 87%;
+    margin-left: 100px;
   }
 }
 #works ul #item7 {
@@ -780,12 +870,28 @@ nav section #navmenu li a img {
     width: 114%;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item7 img {
+    width: 95%;
+  }
+}
 #works ul #item8 {
   grid-area: item8;
 }
 @media (min-width: 744px) {
   #works ul #item8 {
     margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item8 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  #works ul #item8 img {
+    height: 90vh;
+    width: auto;
   }
 }
 #works ul #item9 {
@@ -796,12 +902,26 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item9 {
+    margin-bottom: 0px;
+  }
+  #works ul #item9 img {
+    width: 88%;
+  }
+}
 #works ul #item10 {
   grid-area: item10;
 }
 @media (min-width: 744px) {
   #works ul #item10 img {
     width: 105%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item10 img {
+    width: 88%;
+    margin-bottom: 256px;
   }
 }
 #works ul #item11 {
@@ -814,6 +934,16 @@ nav section #navmenu li a img {
   }
   #works ul #item11 img {
     width: 96%;
+    margin-bottom: 256px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item11 {
+    justify-content: center;
+  }
+  #works ul #item11 img {
+    width: auto;
+    height: 90vh;
   }
 }
 #works ul #item12 {
@@ -831,12 +961,31 @@ nav section #navmenu li a img {
     width: 96%;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item12 {
+    margin-bottom: 256px;
+    justify-content: flex-start;
+  }
+  #works ul #item12 img {
+    width: 104%;
+  }
+}
 #works ul #item13 {
   grid-area: item13;
 }
 @media (min-width: 744px) {
   #works ul #item13 {
     margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item13 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  #works ul #item13 img {
+    width: 94%;
   }
 }
 #works ul #item14 {
@@ -847,8 +996,25 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item14 {
+    margin-bottom: 0px;
+  }
+  #works ul #item14 img {
+    width: 111%;
+  }
+}
 #works ul #item15 {
   grid-area: item15;
+}
+@media (min-width: 1280px) {
+  #works ul #item15 {
+    display: flex;
+    justify-content: center;
+  }
+  #works ul #item15 img {
+    width: 97%;
+  }
 }
 #works ul #item16 {
   grid-area: item16;
@@ -856,6 +1022,16 @@ nav section #navmenu li a img {
 @media (min-width: 744px) {
   #works ul #item16 {
     margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item16 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 256px;
+  }
+  #works ul #item16 img {
+    width: 111%;
   }
 }
 #works ul #item17 {
@@ -866,6 +1042,14 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item17 {
+    margin-bottom: 0px;
+  }
+  #works ul #item17 img {
+    width: 116%;
+  }
+}
 #works ul #item18 {
   grid-area: item18;
 }
@@ -874,11 +1058,33 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #works ul #item18 {
+    margin-bottom: 0px;
+  }
+  #works ul #item18 img {
+    width: 116%;
+  }
+}
 #works ul #item19 {
   grid-area: item19;
 }
+@media (min-width: 1280px) {
+  #works ul #item19 img {
+    width: 116%;
+  }
+}
 #works ul #item20 {
   grid-area: item20;
+}
+@media (min-width: 1280px) {
+  #works ul #item20 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item20 img {
+    width: 116%;
+  }
 }
 #works ul li img {
   width: 100%;
@@ -900,6 +1106,12 @@ nav section #navmenu li a img {
     gap: 16px;
   }
 }
+@media (min-width: 1280px) {
+  #designintro {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". . . . . . content content content content content .";
+  }
+}
 #designintro article {
   display: flex;
   flex-direction: column;
@@ -918,10 +1130,16 @@ nav section #navmenu li a img {
 @media (min-width: 744px) {
   #designworks ul {
     display: grid;
-    column-gap: 16px;
-    row-gap: 16px;
+    column-gap: 32px;
+    row-gap: 32px;
     grid-template-columns: repeat(16, 1fr);
     grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3" "item4 item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5 item5 item5" ". . item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 . .";
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1" "item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3" "item4 item4 item4 item5 item5 item5 item5 item5 item5 item6 item6 item6";
   }
 }
 #designworks ul #item1 {
@@ -932,6 +1150,11 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #designworks ul #item1 img {
+    margin-bottom: 256px;
+  }
+}
 #designworks ul #item2 {
   grid-area: item2;
 }
@@ -939,6 +1162,12 @@ nav section #navmenu li a img {
   #designworks ul #item2 img {
     width: 99%;
     margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul #item2 img {
+    width: 106%;
+    margin-bottom: 256px;
   }
 }
 #designworks ul #item3 {
@@ -953,6 +1182,11 @@ nav section #navmenu li a img {
     width: 101%;
   }
 }
+@media (min-width: 1280px) {
+  #designworks ul #item3 img {
+    width: 91%;
+  }
+}
 #designworks ul #item4 {
   grid-area: item4;
 }
@@ -962,20 +1196,40 @@ nav section #navmenu li a img {
     margin-bottom: 178px;
   }
 }
+@media (min-width: 1280px) {
+  #designworks ul #item4 img {
+    width: 123%;
+    margin-bottom: 0px;
+  }
+}
 #designworks ul #item5 {
   grid-area: item5;
 }
 @media (min-width: 744px) {
   #designworks ul #item5 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   #designworks ul #item5 img {
     width: 97%;
   }
 }
+@media (min-width: 1280px) {
+  #designworks ul #item5 img {
+    width: 73%;
+  }
+}
 #designworks ul #item6 {
   grid-area: item6;
+}
+@media (min-width: 1280px) {
+  #designworks ul #item6 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #designworks ul #item6 img {
+    width: 126%;
+  }
 }
 #designworks ul li img {
   width: 100%;

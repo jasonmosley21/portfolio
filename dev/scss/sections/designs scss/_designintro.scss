@@ -5,6 +5,10 @@
     margin: 0 16px;
     gap: 16px;
     }
+    @include laptop {
+        grid-template-columns: repeat(12,1fr);
+        grid-template-areas: ". . . . . . content content content content content .";
+    }
     article{
         display: flex;
     flex-direction: column;

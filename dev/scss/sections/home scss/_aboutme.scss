@@ -2,8 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include laptop {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-areas: ". text text text text text text pfp pfp pfp pfp .";
+        gap: 16px;
+    }
 
     #profilepic{
+        grid-area: pfp;
         width: 84%;
         border-radius: 100%;
         margin-bottom: 16px;
@@ -11,8 +18,12 @@
             width: 62.5%;
             margin-bottom: 32px;
         }
+        @include laptop{
+            width: 100%;
+        }
     }
     section{
+        grid-area: text;
         display: flex;
             flex-direction: column;
             align-items: flex-end;
@@ -20,6 +31,10 @@
             @include tablet {
                 width: 72%;
             }
+            @include laptop {
+                width: 94.5%;
+                margin-right: auto;
+            }    
         #aboutmetext{
             display: flex;
             flex-direction: column;
@@ -27,6 +42,9 @@
             margin-bottom: 8px;
             @include tablet {
                 margin-bottom: 16px;
+            }
+            @include laptop {
+               
             }
             h2{
                 margin-bottom: 8px;
@@ -38,6 +56,9 @@
                 width: 57%;
                 @include tablet{
                     width: 70%;
+                }
+                @include laptop{
+                    width: 100%;
                 }
             }
         }
