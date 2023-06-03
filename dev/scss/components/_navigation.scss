@@ -1,3 +1,49 @@
 /* =============
     Navigation
 ============= */
+nav{
+   
+    position: fixed;
+    width: 100%;
+    bottom: 24px;
+    justify-items: center;
+    section{
+        display: flex;
+        width: 100%;
+        max-width: 398px;
+        height: 72px;
+        background: linear-gradient(180deg, $darkicebluetransp 32.81%, $darkiceblueinvis 100%), $oreoblacktransp;
+        background-blend-mode: multiply, normal;
+        border-radius: 21px;
+        backdrop-filter: blur(21px);
+        align-items: center;
+        justify-content: center;
+        @include tablet{
+            max-width: 488px;
+            height: 88px;
+        }
+        #navmenu{
+            display: flex;
+            gap: 32px;
+            justify-content: center;
+            align-items: center;
+        
+            li{
+                
+                a{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    width: 56px;
+                    height: 56px;
+                    img{
+                        width: 24px;
+                    }
+                }
+               
+            }
+        }
+    }
+}

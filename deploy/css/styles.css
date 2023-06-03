@@ -352,9 +352,127 @@ template {
 /* =============
     Base
 ============= */
+.grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+  align-items: center;
+}
+.grid .content {
+  grid-area: content;
+}
+
+.spacing {
+  padding: 64px 0 64px 0;
+}
+@media (min-width: 744px) {
+  .spacing {
+    padding: 128px 0 128px 0;
+  }
+}
+
+body {
+  background: linear-gradient(180deg, #323334, #0f465c, #191a1a);
+  padding-bottom: 24px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+@media (min-width: 744px) {
+  .beforetablet {
+    display: none;
+  }
+}
+
+.aftertablet {
+  display: none;
+}
+@media (min-width: 744px) {
+  .aftertablet {
+    display: block;
+  }
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Manrope", sans-serif;
+  text-align: right;
+  color: #c9cacb;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112%;
+}
+@media (min-width: 744px) {
+  h1 {
+    font-size: 96px;
+  }
+}
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 144px;
+  }
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+@media (min-width: 744px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1280px) {
+  h2 {
+    font-size: 72px;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+@media (min-width: 744px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1280px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 12px;
+}
+@media (min-width: 744px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1280px) {
+  h4 {
+    font-size: 27px;
+  }
+}
+
+h5 {
+  font-size: 8px;
+  line-height: auto;
+}
+
 /* =============
     Buttons
 ============= */
@@ -379,9 +497,748 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  position: fixed;
+  width: 100%;
+  bottom: 24px;
+  justify-items: center;
+}
+nav section {
+  display: flex;
+  width: 100%;
+  max-width: 398px;
+  height: 72px;
+  background: linear-gradient(180deg, rgba(15, 70, 92, 0.5) 32.81%, rgba(15, 70, 92, 0) 100%), rgba(50, 51, 52, 0.75);
+  background-blend-mode: multiply, normal;
+  border-radius: 21px;
+  backdrop-filter: blur(21px);
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 744px) {
+  nav section {
+    max-width: 488px;
+    height: 88px;
+  }
+}
+nav section #navmenu {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+nav section #navmenu li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 56px;
+  height: 56px;
+}
+nav section #navmenu li a img {
+  width: 24px;
+}
+
 /* =============
     Header
 ============= */
 /* =============
     Footer
 ============= */
+@media (min-width: 744px) {
+  #landinggrid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". . content content content content . .";
+    gap: 16px;
+    margin: 0 16px;
+  }
+}
+@media (min-width: 1280px) {
+  #landinggrid {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    align-items: center;
+  }
+}
+#landinggrid #landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1280px) {
+  #landinggrid #landing {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". logo logo logo logo . title title title title title .";
+    gap: 16px;
+  }
+}
+#landinggrid #landing #logo {
+  grid-area: logo;
+  width: 256px;
+}
+@media (min-width: 744px) {
+  #landinggrid #landing #logo {
+    width: 100%;
+  }
+}
+#landinggrid #landing #landingtext {
+  grid-area: title;
+}
+#landinggrid #landing #landingtext h1 {
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+@media (min-width: 744px) {
+  #landinggrid #landing #landingtext h1 {
+    margin-bottom: 16px;
+    margin-top: 32px;
+  }
+}
+
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1280px) {
+  #aboutme {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". text text text text text text pfp pfp pfp pfp .";
+    gap: 16px;
+  }
+}
+#aboutme #profilepic {
+  grid-area: pfp;
+  width: 84%;
+  border-radius: 100%;
+  margin-bottom: 16px;
+}
+@media (min-width: 744px) {
+  #aboutme #profilepic {
+    width: 62.5%;
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  #aboutme #profilepic {
+    width: 100%;
+  }
+}
+#aboutme section {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 84%;
+}
+@media (min-width: 744px) {
+  #aboutme section {
+    width: 72%;
+  }
+}
+@media (min-width: 1280px) {
+  #aboutme section {
+    width: 94.5%;
+    margin-right: auto;
+  }
+}
+#aboutme section #aboutmetext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+@media (min-width: 744px) {
+  #aboutme section #aboutmetext {
+    margin-bottom: 16px;
+  }
+}
+#aboutme section #aboutmetext h2 {
+  margin-bottom: 8px;
+}
+@media (min-width: 744px) {
+  #aboutme section #aboutmetext h2 {
+    margin-bottom: 16px;
+  }
+}
+#aboutme section #aboutmetext h4 {
+  width: 57%;
+}
+@media (min-width: 744px) {
+  #aboutme section #aboutmetext h4 {
+    width: 70%;
+  }
+}
+@media (min-width: 1280px) {
+  #aboutme section #aboutmetext h4 {
+    width: 100%;
+  }
+}
+#aboutme #socials {
+  display: flex;
+  gap: 40px;
+}
+#aboutme #socials a {
+  height: 44px;
+  width: 44px;
+}
+@media (min-width: 744px) {
+  #aboutme #socials a {
+    height: 88px;
+    width: 88px;
+  }
+}
+#aboutme #socials a img {
+  height: 24px;
+  color: #c9cacb;
+}
+@media (min-width: 744px) {
+  #aboutme #socials a img {
+    height: 32px;
+  }
+}
+
+@media (min-width: 744px) {
+  #artintro {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". . . content content content content .";
+    margin: 0 16px;
+    gap: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  #artintro {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". . . . . . content content content content content .";
+  }
+}
+#artintro article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#artintro article h3 {
+  margin-top: 8px;
+  width: 45%;
+}
+@media (min-width: 744px) {
+  #artintro article h3 {
+    width: 74%;
+  }
+}
+
+@media (min-width: 744px) {
+  #works ul {
+    display: grid;
+    column-gap: 32px;
+    row-gap: 32px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3 item3" "item2 item2 item2 item2 item2 item2 item2 item2 item2 item4 item4 item4 item4 item4 item4 item4" ". . item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 item5 . ." "item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item7 item7 item7 item7 item7" ". . item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 . ." ". . item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 item9 . ." "item10 item10 item10 item10 item10 item10 item10 item11 item11 item11 item11 item11 item11 item11 item11 item11" "item10 item10 item10 item10 item10 item10 item10 item12 item12 item12 item12 item12 item12 item12 item12 item12" ". . item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 . ." "item14 item14 item14 item14 item14 item14 item14 item14 item15 item15 item15 item15 item15 item15 item15 item15" ". . item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 item16 . ." ". . item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 item17 . ." "item18 item18 item18 item18 item18 item18 item18 item18 item19 item19 item19 item19 item19 item19 item19 item19" ". . item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 item20 . .";
+  }
+}
+@media (min-width: 1280px) {
+  #works ul {
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-areas: ". . . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2 item2 item2 . . ." ". . . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item3 item3 item3 item3 item3 item3 item3 item3 . . ." "item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4 item4" "item5 item5 item5 item5 item5 item5 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item7 item7 item7 item7 item7 item7" ". item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item9 item9 item9 item9 item9 item9 item9 item9 ." ". item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item8 item10 item10 item10 item10 item10 item10 item10 item10 ." "item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11 item11" "item12 item12 item12 item12 item12 item12 item12 item12 item12 item12 item12 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13 item13" "item14 item14 item14 item14 item14 item14 item14 . item15 item15 item15 item15 item15 item15 item15 item15 . item16 item16 item16 item16 item16 item16 item16" "item17 item17 item17 item17 item17 . item18 item18 item18 item18 item18 . item19 item19 item19 item19 item19 . . item20 item20 item20 item20 item20";
+  }
+}
+#works ul #item1 {
+  grid-area: item1;
+}
+@media (min-width: 744px) {
+  #works ul #item1 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  #works ul #item1 img {
+    height: 90vh;
+    width: auto;
+  }
+}
+#works ul #item2 {
+  grid-area: item2;
+}
+@media (min-width: 744px) {
+  #works ul #item2 img {
+    width: 107%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item2 img {
+    width: 100%;
+  }
+}
+#works ul #item3 {
+  grid-area: item3;
+}
+@media (min-width: 744px) {
+  #works ul #item3 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item3 img {
+    width: 90.5%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item3 img {
+    width: 100%;
+    margin-bottom: 256px;
+  }
+}
+#works ul #item4 {
+  grid-area: item4;
+}
+@media (min-width: 744px) {
+  #works ul #item4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 178px;
+  }
+  #works ul #item4 img {
+    width: 90.5%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item4 {
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  #works ul #item4 img {
+    width: auto;
+    height: 90vh;
+    margin-bottom: 256px;
+  }
+}
+#works ul #item5 {
+  grid-area: item5;
+}
+@media (min-width: 744px) {
+  #works ul #item5 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item5 {
+    margin-bottom: 256px;
+  }
+  #works ul #item5 img {
+    width: 123.5%;
+  }
+}
+#works ul #item6 {
+  grid-area: item6;
+}
+@media (min-width: 744px) {
+  #works ul #item6 {
+    margin-bottom: 178px;
+  }
+  #works ul #item6 img {
+    width: 94%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  #works ul #item6 img {
+    width: 87%;
+    margin-left: 100px;
+  }
+}
+#works ul #item7 {
+  grid-area: item7;
+}
+@media (min-width: 744px) {
+  #works ul #item7 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item7 img {
+    width: 114%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item7 img {
+    width: 95%;
+  }
+}
+#works ul #item8 {
+  grid-area: item8;
+}
+@media (min-width: 744px) {
+  #works ul #item8 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item8 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  #works ul #item8 img {
+    height: 90vh;
+    width: auto;
+  }
+}
+#works ul #item9 {
+  grid-area: item9;
+}
+@media (min-width: 744px) {
+  #works ul #item9 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item9 {
+    margin-bottom: 0px;
+  }
+  #works ul #item9 img {
+    width: 88%;
+  }
+}
+#works ul #item10 {
+  grid-area: item10;
+}
+@media (min-width: 744px) {
+  #works ul #item10 img {
+    width: 105%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item10 img {
+    width: 88%;
+    margin-bottom: 256px;
+  }
+}
+#works ul #item11 {
+  grid-area: item11;
+}
+@media (min-width: 744px) {
+  #works ul #item11 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item11 img {
+    width: 96%;
+    margin-bottom: 256px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item11 {
+    justify-content: center;
+  }
+  #works ul #item11 img {
+    width: auto;
+    height: 90vh;
+  }
+}
+#works ul #item12 {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: item12;
+}
+@media (min-width: 744px) {
+  #works ul #item12 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 178px;
+  }
+  #works ul #item12 img {
+    width: 96%;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item12 {
+    margin-bottom: 256px;
+    justify-content: flex-start;
+  }
+  #works ul #item12 img {
+    width: 104%;
+  }
+}
+#works ul #item13 {
+  grid-area: item13;
+}
+@media (min-width: 744px) {
+  #works ul #item13 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item13 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  #works ul #item13 img {
+    width: 94%;
+  }
+}
+#works ul #item14 {
+  grid-area: item14;
+}
+@media (min-width: 744px) {
+  #works ul #item14 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item14 {
+    margin-bottom: 0px;
+  }
+  #works ul #item14 img {
+    width: 111%;
+  }
+}
+#works ul #item15 {
+  grid-area: item15;
+}
+@media (min-width: 1280px) {
+  #works ul #item15 {
+    display: flex;
+    justify-content: center;
+  }
+  #works ul #item15 img {
+    width: 97%;
+  }
+}
+#works ul #item16 {
+  grid-area: item16;
+}
+@media (min-width: 744px) {
+  #works ul #item16 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item16 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 256px;
+  }
+  #works ul #item16 img {
+    width: 111%;
+  }
+}
+#works ul #item17 {
+  grid-area: item17;
+}
+@media (min-width: 744px) {
+  #works ul #item17 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item17 {
+    margin-bottom: 0px;
+  }
+  #works ul #item17 img {
+    width: 116%;
+  }
+}
+#works ul #item18 {
+  grid-area: item18;
+}
+@media (min-width: 744px) {
+  #works ul #item18 {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #works ul #item18 {
+    margin-bottom: 0px;
+  }
+  #works ul #item18 img {
+    width: 116%;
+  }
+}
+#works ul #item19 {
+  grid-area: item19;
+}
+@media (min-width: 1280px) {
+  #works ul #item19 img {
+    width: 116%;
+  }
+}
+#works ul #item20 {
+  grid-area: item20;
+}
+@media (min-width: 1280px) {
+  #works ul #item20 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #works ul #item20 img {
+    width: 116%;
+  }
+}
+#works ul li img {
+  width: 100%;
+  border-radius: 1000px;
+  margin-bottom: 128px;
+}
+@media (min-width: 744px) {
+  #works ul li img {
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 744px) {
+  #designintro {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". . . content content content content .";
+    margin: 0 16px;
+    gap: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  #designintro {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". . . . . . content content content content content .";
+  }
+}
+#designintro article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#designintro article h3 {
+  margin-top: 8px;
+  width: 45%;
+}
+@media (min-width: 744px) {
+  #designintro article h3 {
+    width: 74%;
+  }
+}
+
+@media (min-width: 744px) {
+  #designworks ul {
+    display: grid;
+    column-gap: 32px;
+    row-gap: 32px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3" "item4 item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5 item5 item5" ". . item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 . .";
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1" "item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3" "item4 item4 item4 item5 item5 item5 item5 item5 item5 item6 item6 item6";
+  }
+}
+#designworks ul #item1 {
+  grid-area: item1;
+}
+@media (min-width: 744px) {
+  #designworks ul #item1 img {
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul #item1 img {
+    margin-bottom: 256px;
+  }
+}
+#designworks ul #item2 {
+  grid-area: item2;
+}
+@media (min-width: 744px) {
+  #designworks ul #item2 img {
+    width: 99%;
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul #item2 img {
+    width: 106%;
+    margin-bottom: 256px;
+  }
+}
+#designworks ul #item3 {
+  grid-area: item3;
+}
+@media (min-width: 744px) {
+  #designworks ul #item3 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #designworks ul #item3 img {
+    width: 101%;
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul #item3 img {
+    width: 91%;
+  }
+}
+#designworks ul #item4 {
+  grid-area: item4;
+}
+@media (min-width: 744px) {
+  #designworks ul #item4 img {
+    width: 104%;
+    margin-bottom: 178px;
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul #item4 img {
+    width: 123%;
+    margin-bottom: 0px;
+  }
+}
+#designworks ul #item5 {
+  grid-area: item5;
+}
+@media (min-width: 744px) {
+  #designworks ul #item5 {
+    display: flex;
+    justify-content: center;
+  }
+  #designworks ul #item5 img {
+    width: 97%;
+  }
+}
+@media (min-width: 1280px) {
+  #designworks ul #item5 img {
+    width: 73%;
+  }
+}
+#designworks ul #item6 {
+  grid-area: item6;
+}
+@media (min-width: 1280px) {
+  #designworks ul #item6 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #designworks ul #item6 img {
+    width: 126%;
+  }
+}
+#designworks ul li img {
+  width: 100%;
+  border-radius: 1000px;
+  margin-bottom: 128px;
+}
+@media (min-width: 744px) {
+  #designworks ul li img {
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+}

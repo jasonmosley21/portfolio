@@ -105,7 +105,7 @@ html {
 
 /* ---------------- Media Queries ---------------- */
 // Small devices
-@mixin sm {
+@mixin mobile {
     @media (min-width: #{$screen-sm-min}) {
         @content;
     }
@@ -117,7 +117,7 @@ html {
 
 
 // Medium devices
-@mixin md {
+@mixin tablet {
     @media (min-width: #{$screen-md-min}) {
         @content;
     }
@@ -129,7 +129,7 @@ html {
 
 
 // Large devices
-@mixin lg {
+@mixin laptop {
     @media (min-width: #{$screen-lg-min}) {
         @content;
     }
@@ -141,7 +141,7 @@ html {
 
 
 // Extra large devices
-@mixin xl {
+@mixin  desktop {
     @media (min-width: #{$screen-xl-min}) {
         @content;
     }
@@ -152,7 +152,7 @@ html {
 // }
 
 // Super Extra large devices
-@mixin xxl {
+@mixin xldesktop {
     @media (min-width: #{$screen-xxl-min}) {
         @content;
     }
