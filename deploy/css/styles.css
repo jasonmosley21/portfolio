@@ -535,6 +535,7 @@ nav section #navmenu li a {
   text-decoration: none;
   width: 56px;
   height: 56px;
+  border-radius: 100%;
 }
 nav section #navmenu li a img {
   width: 24px;
