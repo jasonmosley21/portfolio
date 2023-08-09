@@ -3,6 +3,8 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(GSDevTools);
 
-gsap.to("#profilepic",{duration:1,x:100});
+gsap.to("#logo",{duration:1,x:100});
+
+
 
 GSDevTools.create();
