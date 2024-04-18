@@ -1,0 +1,40 @@
+.process{
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-template-areas: ". title ."
+    ". gallery ."
+    ". buttons .";
+    h2{
+        grid-area: title;
+        text-align: center;
+    }
+    #gallery{
+        grid-area: gallery;
+    display: flex;
+    overflow: hidden;
+
+    li{
+        img{
+            width: 50vw;
+        }
+    }
+}
+.buttons{
+    grid-area: buttons;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    a{
+        width: 48px;
+        height: 48px;
+        background: $iceblue;
+        border-radius: 100%;
+    
+    }
+    a:hover{
+        background-color: $lighticeblue;
+    }
+}
+
+}

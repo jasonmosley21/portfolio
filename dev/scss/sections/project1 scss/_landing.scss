@@ -1,0 +1,21 @@
+.hero{
+    aside{
+        display: flex;
+        align-items: center;
+        height: 75vh;
+        overflow: hidden;
+        img{
+            grid-area: img;
+            width: 100vw;
+        }
+    }
+    article{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        h1{
+            text-align: center;
+        }
+
+    }
+}

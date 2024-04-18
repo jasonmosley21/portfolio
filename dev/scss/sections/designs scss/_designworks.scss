@@ -1,0 +1,142 @@
+#designworks{
+    background: $iceblue;
+    ul{
+        @include tablet {
+            display: grid;
+           
+            row-gap: 32px;
+            grid-template-columns: repeat(16,1fr);
+            grid-template-areas: 
+            ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ."
+            "item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3"
+            "item4 item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5 item5 item5"
+            ". . item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 . .";
+        }
+        @include laptop{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas: 
+            "item1 item2"
+            "item3 item4"
+            "item5 item6";
+        }
+        #item1{
+            grid-area: item1;
+            @include tablet {
+                img{
+              
+                }
+            }
+            @include laptop {
+                img{
+              
+                }
+            }
+        }
+        #item2{
+            grid-area: item2;
+            @include tablet {
+                img{
+                  
+                
+                }
+            }
+            @include laptop{
+                img{
+                   
+                   
+                }
+            }
+        }
+        #item3{
+            grid-area: item3;
+            @include tablet {
+              
+                img{
+                  
+                }
+            }
+            @include laptop {
+                img{
+                   
+                }
+            }
+        }
+        #item4{
+            grid-area: item4;
+            @include tablet {
+                img{
+                    
+                }
+            }
+            @include laptop{
+                img{
+                    
+                }
+            }
+        }
+        #item5{
+            grid-area: item5;
+            @include tablet {
+                display: flex;
+                justify-content: center;
+                img{
+                 
+                }
+            }
+            @include laptop {
+                img{
+                   
+                }
+            }
+        }
+        #item6{
+            grid-area: item6;
+            @include laptop {
+             
+                img{
+                
+                }
+            }
+        }
+        li{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                position: relative;
+                img{
+                    width: 83%;
+                    display: block;
+                    margin: auto;
+                    
+                    @include tablet{
+                        
+                    }
+                }
+                
+                div{
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    opacity: 0;
+                }
+            }
+            div:hover{
+                img{
+                    opacity: 50%;
+                }
+                div{
+                    opacity: 100;
+                }
+            }
+            
+        }
+    }
+}

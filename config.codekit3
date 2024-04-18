@@ -37,14 +37,6 @@
       "oAP" : "\/deploy\/designs.html",
       "oF" : 0
     },
-    "\/deploy\/home.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
-      "oF" : 0
-    },
     "\/deploy\/img\/4DX.png" : {
       "ft" : 32768,
       "iS" : 5950698,
@@ -102,6 +94,45 @@
       "iS" : 1113774,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/artistblock.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Asset1-8.png" : {
+      "ft" : 32768,
+      "iS" : 23875,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Asset1-8.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Asset2-8.png" : {
+      "ft" : 32768,
+      "iS" : 356494,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Asset2-8.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Asset3-8.png" : {
+      "ft" : 32768,
+      "iS" : 397139,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Asset3-8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -242,6 +273,97 @@
       "iS" : 507334,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/iconicchair.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0654.png" : {
+      "ft" : 32768,
+      "iS" : 573401,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0654.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0655.jpg" : {
+      "ft" : 16384,
+      "iS" : 3879402,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0655.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0657.png" : {
+      "ft" : 32768,
+      "iS" : 457867,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0657.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0660.png" : {
+      "ft" : 32768,
+      "iS" : 2000139,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0660.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0662.png" : {
+      "ft" : 32768,
+      "iS" : 1377138,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0662.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0663.png" : {
+      "ft" : 32768,
+      "iS" : 376031,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0663.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_0664.png" : {
+      "ft" : 32768,
+      "iS" : 364591,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_0664.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -466,6 +588,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -476,6 +606,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/project1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project1.html",
+      "oF" : 0
     },
     "\/dev\/artwork.kit" : {
       "cB" : 0,
@@ -521,7 +659,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/home\/aboutme.html",
       "oF" : 0
     },
@@ -531,6 +669,30 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/home\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project1\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project1\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project1\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project1\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project1\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project1\/project.html",
       "oF" : 0
     },
     "\/dev\/designs.kit" : {
@@ -581,7 +743,7 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
-    "\/dev\/home.kit" : {
+    "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -599,6 +761,14 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/project1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project1.html",
+      "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -835,6 +1005,51 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/home scss\/_landing.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project1 scss\/_landing.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project1 scss\/_landing.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project1 scss\/_process.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project1 scss\/_process.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/project1 scss\/_project.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/project1 scss\/_project.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

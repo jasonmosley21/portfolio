@@ -1,0 +1,43 @@
+/* =============
+    Base
+============= */
+.grid {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    align-items: center;
+
+    .content {
+        grid-area: content;
+    }
+}
+
+.spacing{
+    padding: 64px 0 64px 0;
+    @include tablet{
+        padding: 128px 0 128px 0;
+    }
+}
+body{
+    background: $darkblack;
+    padding-bottom: 24px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.beforetablet{
+    @include tablet{
+        display: none;
+    }
+}
+
+.aftertablet{
+    display: none;
+    @include tablet{
+        display: block;
+    }
+}

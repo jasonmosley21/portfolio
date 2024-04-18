@@ -1,0 +1,63 @@
+#landinggrid{
+    @include tablet {
+        grid-template-columns: repeat(8,1fr);
+        grid-template-areas: ". . content content content content . .";
+        gap: 16px;
+    }
+    @include laptop {
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". content .";
+        align-items: center;
+        gap: 0px;
+    }
+    #backgroundcolor{
+        background: $iceblue; 
+        margin-left: 50vw;
+        height: 100vh; 
+        width: 50vw;
+        transform-origin: top right;
+    }
+    #landing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include laptop {
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-areas: ". design design . logo logo logo logo . art art .";
+            gap: 16px;
+        }
+    
+        #logo{
+            grid-area: logo;
+            width: 256px;
+            @include tablet{
+                width: 100%;
+            }
+        }
+        #landingtext{
+            grid-area: design;
+            h1{
+                margin-bottom: 8px;
+                margin-top: 16px;
+                @include tablet {
+                    margin-bottom: 16px;
+                    margin-top: 32px;
+                }
+            }
+        }
+        #arttext{
+            grid-area: art;
+            text-align: right;
+            h1{
+                margin-bottom: 8px;
+                margin-top: 16px;
+                @include tablet {
+                    margin-bottom: 16px;
+                    margin-top: 32px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+#project1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". i1 i1 i1 i1 i1 i2 i2 i2 i2 i2 ."
+    "i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3"
+    ". i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 ."
+    ". i5 i5 i5 i5 i5 i6 i6 i6 i6 i6 .";
+    row-gap: 16px;
+    column-gap: 16px;
+    #img1{
+        grid-area: i1;
+    }
+    #img2{
+        grid-area: i2;
+    }
+    #img3{
+        grid-area: i3;
+    }
+    #img4{
+        grid-area: i4;
+    }
+    #img5{
+        grid-area: i5;
+    }
+    #img6{
+        grid-area: i6;
+    }
+    img{
+        width: 100%;
+    }
+}
