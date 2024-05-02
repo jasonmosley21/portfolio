@@ -372,8 +372,7 @@ template {
 }
 
 body {
-  background: #191a1a;
-  padding-bottom: 24px;
+  background: #a4daf0;
 }
 
 ul {
@@ -401,7 +400,7 @@ ul {
     Typography
 ============= */
 h1, h2, h3, h4, h5, h6, p {
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #e9f6fb;
   margin: 0;
 }
@@ -501,6 +500,7 @@ nav {
   width: 100%;
   bottom: 24px;
   justify-items: center;
+  z-index: 1;
 }
 nav section {
   display: flex;
@@ -546,13 +546,6 @@ nav section #navmenu li a img {
 /* =============
     Footer
 ============= */
-@media (min-width: 744px) {
-  #landinggrid {
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-areas: ". . content content content content . .";
-    gap: 16px;
-  }
-}
 @media (min-width: 1280px) {
   #landinggrid {
     display: grid;
@@ -563,11 +556,9 @@ nav section #navmenu li a img {
   }
 }
 #landinggrid #backgroundcolor {
-  background: #a4daf0;
-  margin-left: 50vw;
+  background: #191a1a;
   height: 100vh;
   width: 50vw;
-  transform-origin: top right;
 }
 #landinggrid #landing {
   display: flex;
@@ -588,6 +579,11 @@ nav section #navmenu li a img {
 }
 @media (min-width: 744px) {
   #landinggrid #landing #logo {
+    width: 50%;
+  }
+}
+@media (min-width: 1280px) {
+  #landinggrid #landing #logo {
     width: 100%;
   }
 }
@@ -600,7 +596,7 @@ nav section #navmenu li a img {
 }
 @media (min-width: 744px) {
   #landinggrid #landing #landingtext h1 {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     margin-top: 32px;
   }
 }
@@ -725,33 +721,20 @@ nav section #navmenu li a img {
 
 @media (min-width: 744px) {
   #artintro {
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-areas: ". . . content content content content .";
     margin: 0 16px;
-    gap: 16px;
-  }
-}
-@media (min-width: 1280px) {
-  #artintro {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: ". . . . . . content content content content content .";
+    gap: 32px;
   }
 }
 #artintro article {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 #artintro article h3 {
+  margin-left: 128px;
   margin-top: 8px;
-  width: 45%;
 }
-@media (min-width: 744px) {
-  #artintro article h3 {
-    width: 74%;
-  }
-}
-
 @media (min-width: 744px) {
   #works ul {
     display: grid;
@@ -1121,33 +1104,20 @@ nav section #navmenu li a img {
 
 @media (min-width: 744px) {
   #designintro {
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-areas: ". . . content content content content .";
     margin: 0 16px;
-    gap: 16px;
-  }
-}
-@media (min-width: 1280px) {
-  #designintro {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: ". . . . . . content content content content content .";
+    gap: 32px;
   }
 }
 #designintro article {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 #designintro article h3 {
+  margin-left: 128px;
   margin-top: 8px;
-  width: 45%;
 }
-@media (min-width: 744px) {
-  #designintro article h3 {
-    width: 74%;
-  }
-}
-
 #designworks {
   background: #a4daf0;
 }
@@ -1155,14 +1125,14 @@ nav section #navmenu li a img {
   #designworks ul {
     display: grid;
     row-gap: 32px;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-areas: ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ." "item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3" "item4 item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5 item5 item5" ". . item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 . .";
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8" "item9 .";
   }
 }
 @media (min-width: 1280px) {
   #designworks ul {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8" "item9 .";
   }
 }
 #designworks ul #item1 {
@@ -1189,6 +1159,15 @@ nav section #navmenu li a img {
 #designworks ul #item6 {
   grid-area: item6;
 }
+#designworks ul #item7 {
+  grid-area: item7;
+}
+#designworks ul #item8 {
+  grid-area: item8;
+}
+#designworks ul #item9 {
+  grid-area: item9;
+}
 #designworks ul li {
   width: 100%;
   display: flex;
@@ -1197,11 +1176,18 @@ nav section #navmenu li a img {
 }
 #designworks ul li div {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #designworks ul li div img {
-  width: 83%;
-  display: block;
-  margin: auto;
+  width: 100%;
+}
+@media (min-width: 744px) {
+  #designworks ul li div img {
+    height: 45vw;
+    width: auto;
+  }
 }
 #designworks ul li div div {
   width: 100%;
@@ -1214,6 +1200,7 @@ nav section #navmenu li a img {
   align-items: center;
   flex-direction: column;
   opacity: 0;
+  text-align: center;
 }
 #designworks ul li div:hover img {
   opacity: 50%;
@@ -1222,55 +1209,109 @@ nav section #navmenu li a img {
   opacity: 100;
 }
 
+.hero {
+  background: #191a1a;
+}
 .hero aside {
   display: flex;
-  align-items: center;
-  height: 75vh;
+  justify-content: center;
   overflow: hidden;
 }
 .hero aside img {
-  grid-area: img;
-  width: 100vw;
+  display: flex;
+  width: 60vh;
+}
+@media (min-width: 744px) {
+  .hero aside {
+    align-items: center;
+    height: 60vh;
+  }
+  .hero aside img {
+    grid-area: img;
+    width: 100vw;
+  }
 }
 .hero article {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
   align-items: center;
 }
-.hero article h1 {
+.hero article h2 {
   text-align: center;
+  padding: 0 16px;
+}
+.hero article p {
+  padding: 32px 16px 0 16px;
+}
+@media (min-width: 744px) {
+  .hero article {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding-top: 32px;
+  }
+  .hero article h2 {
+    text-align: center;
+  }
+  .hero article p {
+    width: 83%;
+  }
 }
 
-#project1 {
+.project {
+  background: #191a1a;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: ". i1 i1 i1 i1 i1 i2 i2 i2 i2 i2 ." "i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3" ". i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 ." ". i5 i5 i5 i5 i5 i6 i6 i6 i6 i6 .";
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+.project ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   row-gap: 16px;
-  column-gap: 16px;
-}
-#project1 #img1 {
-  grid-area: i1;
-}
-#project1 #img2 {
-  grid-area: i2;
-}
-#project1 #img3 {
-  grid-area: i3;
-}
-#project1 #img4 {
-  grid-area: i4;
-}
-#project1 #img5 {
-  grid-area: i5;
-}
-#project1 #img6 {
-  grid-area: i6;
-}
-#project1 img {
+  grid-area: content;
   width: 100%;
+}
+.project ul li {
+  width: 100%;
+}
+.project ul li img {
+  width: 100%;
+}
+@media (min-width: 744px) {
+  .project ul {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". i1 i1 i1 i1 i1 i2 i2 i2 i2 i2 ." "i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3 i3" ". i4 i4 i4 i4 i4 i4 i4 i4 i4 i4 ." ". i5 i5 i5 i5 i5 i6 i6 i6 i6 i6 .";
+    row-gap: 16px;
+    column-gap: 16px;
+  }
+  .project ul #img1 {
+    grid-area: i1;
+  }
+  .project ul #img2 {
+    grid-area: i2;
+  }
+  .project ul #img3 {
+    grid-area: i3;
+  }
+  .project ul #img4 {
+    grid-area: i4;
+  }
+  .project ul #img5 {
+    grid-area: i5;
+  }
+  .project ul #img6 {
+    grid-area: i6;
+  }
+  .project ul img {
+    width: 100%;
+  }
 }
 
 .process {
+  background: #191a1a;
   display: grid;
   grid-template-columns: 25% auto 25%;
   grid-template-areas: ". title ." ". gallery ." ". buttons .";
@@ -1278,6 +1319,7 @@ nav section #navmenu li a img {
 .process h2 {
   grid-area: title;
   text-align: center;
+  padding-bottom: 64px;
 }
 .process #gallery {
   grid-area: gallery;
@@ -1297,7 +1339,7 @@ nav section #navmenu li a img {
 .process .buttons a {
   width: 48px;
   height: 48px;
-  background: #a4daf0;
+  background: #323334;
   border-radius: 100%;
 }
 .process .buttons a:hover {

@@ -1,20 +1,46 @@
 .hero{
+    background: $darkblack;
     aside{
         display: flex;
+        justify-content: center;
+            overflow: hidden;
+        img{
+            display: flex;
+            width: 60vh;
+        }
+        @include tablet {
         align-items: center;
-        height: 75vh;
-        overflow: hidden;
+        height: 60vh;
         img{
             grid-area: img;
             width: 100vw;
         }
+        }
     }
     article{
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+        align-items: center;
+        h2{
+            text-align: center;
+            padding: 0 16px;
+        }
+        p{
+            padding: 32px 16px 0 16px;
+        }
+     
+        @include tablet {
+            display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
-        h1{
+        padding-top: 32px;
+        h2{
             text-align: center;
+        }
+        p{
+            width: 83%;
+        }
         }
 
     }

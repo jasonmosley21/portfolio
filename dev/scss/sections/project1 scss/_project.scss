@@ -1,4 +1,26 @@
-#project1{
+.project{
+    background: $darkblack;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    ul{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    row-gap: 16px;
+    grid-area: content;
+    width: 100%;
+    li{
+    
+        width: 100%;
+        img{
+            width: 100%;
+          
+        }
+    }
+    }
+    @include tablet{
+    ul{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: ". i1 i1 i1 i1 i1 i2 i2 i2 i2 i2 ."
@@ -27,5 +49,7 @@
     }
     img{
         width: 100%;
+    }
+    }
     }
 }

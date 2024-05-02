@@ -1,8 +1,8 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { GSDevTools } from "gsap/GSDevTools";
+//import { GSDevTools } from "gsap/GSDevTools";
 
-gsap.registerPlugin(ScrollTrigger, GSDevTools);
+gsap.registerPlugin(ScrollTrigger);
 
 function landingANIME(){
     var tl = gsap.timeline();
@@ -20,7 +20,7 @@ function imageANIME(){
 }
 
 function landingscrollANIME(){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"#backgroundcolor", scrub:true, markers: true, end:"100% 0%", start:"20% 0%"}});
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#backgroundcolor", scrub:true, markers: false, end:"100% 0%", start:"20% 0%"}});
 
     tl.to("#landing", {opacity: 0})
     tl.from("#aboutme", {opacity:0})
@@ -35,4 +35,4 @@ maintl.add(landingANIME())
 
 
 
-GSDevTools.create();
+//GSDevTools.create();

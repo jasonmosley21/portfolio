@@ -5,19 +5,22 @@
             display: grid;
            
             row-gap: 32px;
-            grid-template-columns: repeat(16,1fr);
-            grid-template-areas: 
-            ". . item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 item1 . ."
-            "item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item3 item3 item3 item3 item3 item3"
-            "item4 item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5 item5 item5"
-            ". . item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 item6 . .";
-        }
-        @include laptop{
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: 50% 50%;
             grid-template-areas: 
             "item1 item2"
             "item3 item4"
-            "item5 item6";
+            "item5 item6"
+            "item7 item8"
+            "item9 .";
+        }
+        @include laptop{
+            grid-template-columns: 50% 50%;
+            grid-template-areas: 
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item8"
+            "item9 .";
         }
         #item1{
             grid-area: item1;
@@ -98,6 +101,15 @@
                 }
             }
         }
+        #item7{
+            grid-area: item7;
+        }
+        #item8{
+            grid-area: item8;
+        }
+        #item9{
+            grid-area: item9;
+        }
         li{
             width: 100%;
             display: flex;
@@ -105,13 +117,16 @@
             align-items: center;
             div{
                 position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 img{
-                    width: 83%;
-                    display: block;
-                    margin: auto;
+                    width: 100%;
+                    
                     
                     @include tablet{
-                        
+                        height: 45vw;
+                        width: auto; 
                     }
                 }
                 
@@ -126,6 +141,7 @@
                     align-items: center;
                     flex-direction: column;
                     opacity: 0;
+                    text-align: center;
                 }
             }
             div:hover{

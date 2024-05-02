@@ -1,4 +1,5 @@
 .process{
+    background: $darkblack;
     display: grid;
     grid-template-columns: 25% auto 25%;
     grid-template-areas: ". title ."
@@ -7,6 +8,7 @@
     h2{
         grid-area: title;
         text-align: center;
+        padding-bottom: 64px;
     }
     #gallery{
         grid-area: gallery;
@@ -28,7 +30,7 @@
     a{
         width: 48px;
         height: 48px;
-        background: $iceblue;
+        background: $oreoblack;
         border-radius: 100%;
     
     }
