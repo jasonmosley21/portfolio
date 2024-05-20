@@ -451,18 +451,18 @@ h3 {
   }
 }
 
-h4 {
+p {
   font-weight: 400;
   font-size: 12px;
 }
 @media (min-width: 744px) {
-  h4 {
+  p {
     font-size: 18px;
   }
 }
 @media (min-width: 1280px) {
-  h4 {
-    font-size: 27px;
+  p {
+    font-size: 14px;
   }
 }
 
@@ -565,11 +565,24 @@ nav section #navmenu li a img {
   flex-direction: column;
   align-items: center;
 }
+#landinggrid #landing #desktop {
+  display: none;
+}
+@media (min-width: 1280px) {
+  #landinggrid #landing #desktop {
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  #landinggrid #landing #mobile {
+    display: none;
+  }
+}
 @media (min-width: 1280px) {
   #landinggrid #landing {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: ". design design . logo logo logo logo . art art .";
+    grid-template-areas: "design design design . logo logo logo logo . art art art";
     gap: 16px;
   }
 }
@@ -591,22 +604,23 @@ nav section #navmenu li a img {
   grid-area: design;
 }
 #landinggrid #landing #landingtext h1 {
-  margin-bottom: 8px;
+  margin-bottom: 32px;
   margin-top: 16px;
 }
 @media (min-width: 744px) {
   #landinggrid #landing #landingtext h1 {
     margin-bottom: 32px;
     margin-top: 32px;
+    margin-left: 32px;
   }
 }
 #landinggrid #landing #arttext {
   grid-area: art;
-  text-align: right;
+  text-align: center;
 }
 #landinggrid #landing #arttext h1 {
   margin-bottom: 8px;
-  margin-top: 16px;
+  margin-top: 32px;
 }
 @media (min-width: 744px) {
   #landinggrid #landing #arttext h1 {
@@ -1311,6 +1325,7 @@ nav section #navmenu li a img {
 }
 
 .process {
+  padding-top: 0px;
   background: #191a1a;
   display: grid;
   grid-template-columns: 25% auto 25%;
@@ -1328,6 +1343,7 @@ nav section #navmenu li a img {
 }
 .process #gallery li img {
   width: 50vw;
+  padding-bottom: 16px;
 }
 .process .buttons {
   grid-area: buttons;

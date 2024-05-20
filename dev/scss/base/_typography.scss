@@ -40,18 +40,19 @@ h3{
         font-size: 36px;
     }
 }
-h4{
+p{
     font-weight: 400;
     font-size: 12px;
     @include tablet{
         font-size: 18px;
     }
     @include laptop{
-        font-size: 27px;
+        font-size: 14px;
     }
 }
 h5{
     font-size: 8px;
     line-height: auto;
 }
+
 

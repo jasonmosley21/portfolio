@@ -9,12 +9,12 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/4DX.html" : {
+    "\/4dx.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/4DX.html",
+      "oAP" : "\/4dx.html",
       "oF" : 0
     },
     "\/artwork.html" : {
@@ -328,6 +328,97 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/5close1.jpg" : {
+      "ft" : 16384,
+      "iS" : 959356,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5close1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/5close2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1704585,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5close2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/5cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 4145203,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/5spread1.jpg" : {
+      "ft" : 16384,
+      "iS" : 4536294,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5spread1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/5spread2.jpg" : {
+      "ft" : 16384,
+      "iS" : 4497354,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5spread2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/5spread3.jpg" : {
+      "ft" : 16384,
+      "iS" : 4336829,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/5spread3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/6spread1.png" : {
+      "ft" : 32768,
+      "iS" : 21040947,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/6spread1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/adrianetext.png" : {
       "ft" : 32768,
       "iS" : 4871556,
@@ -559,6 +650,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/deploy\/img\/fromthedepths.png" : {
+      "ft" : 32768,
+      "iS" : 1461611,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/fromthedepths.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/heroes&villains.gif" : {
       "ft" : 4194304,
       "iS" : 15726626,
@@ -692,6 +796,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/IMG_2678.jpg" : {
+      "ft" : 16384,
+      "iS" : 8708094,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/IMG_2678.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -905,6 +1022,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/sophocles.png" : {
+      "ft" : 32768,
+      "iS" : 1235979,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/sophocles.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/sophoclescovers.jpg" : {
+      "ft" : 16384,
+      "iS" : 1748871,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/sophoclescovers.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/speechtroubles.png" : {
       "ft" : 32768,
       "iS" : 633369,
@@ -1005,6 +1148,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/project4.html",
+      "oF" : 0
+    },
+    "\/deploy\/project5.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project5.html",
+      "oF" : 0
+    },
+    "\/deploy\/project6.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project6.html",
       "oF" : 0
     },
     "\/designateddriver.html" : {
@@ -1175,6 +1334,54 @@
       "oAP" : "\/dev\/content\/project4\/project.html",
       "oF" : 1
     },
+    "\/dev\/content\/project5\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project5\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project5\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/project5\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project5\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project5\/project.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project6\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project6\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project6\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/project6\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project6\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project6\/project.html",
+      "oF" : 0
+    },
     "\/dev\/designs.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1182,14 +1389,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/designs.html",
       "oF" : 2
-    },
-    "\/dev\/global\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -1205,14 +1404,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
     "\/dev\/global\/header.kit" : {
@@ -1288,6 +1479,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/project4.html",
+      "oF" : 2
+    },
+    "\/dev\/project5.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project5.html",
+      "oF" : 2
+    },
+    "\/dev\/project6.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project6.html",
       "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
@@ -1589,6 +1796,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/fromthedepths.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fromthedepths.html",
+      "oF" : 0
     },
     "\/gsap-bonus.tgz" : {
       "cB" : 0,
@@ -3452,6 +3667,97 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/5close1.jpg" : {
+      "ft" : 16384,
+      "iS" : 959356,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/5close1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/5close2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1704585,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/5close2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/5cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 4339640,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/5cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/5spread1.jpg" : {
+      "ft" : 16384,
+      "iS" : 4082402,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/5spread1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/5spread2.jpg" : {
+      "ft" : 16384,
+      "iS" : 4497354,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/5spread2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/5spread3.jpg" : {
+      "ft" : 16384,
+      "iS" : 4336829,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/5spread3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/6spread1.png" : {
+      "ft" : 32768,
+      "iS" : 21040947,
+      "oA" : 0,
+      "oAP" : "\/img\/6spread1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/adrianetext.png" : {
       "ft" : 32768,
       "iS" : 2374145,
@@ -3683,6 +3989,19 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/img\/fromthedepths.png" : {
+      "ft" : 32768,
+      "iS" : 1461611,
+      "oA" : 0,
+      "oAP" : "\/img\/fromthedepths.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/heroes&villains.gif" : {
       "ft" : 4194304,
       "iS" : 15726626,
@@ -3816,6 +4135,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/IMG_2678.jpg" : {
+      "ft" : 16384,
+      "iS" : 8708094,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/IMG_2678.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4029,6 +4361,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/sophocles.png" : {
+      "ft" : 32768,
+      "iS" : 1235979,
+      "oA" : 0,
+      "oAP" : "\/img\/sophocles.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/sophoclescovers.jpg" : {
+      "ft" : 16384,
+      "iS" : 1748871,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/sophoclescovers.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/speechtroubles.png" : {
       "ft" : 32768,
       "iS" : 633369,
@@ -4143,6 +4501,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pandabamboo.html",
+      "oF" : 0
+    },
+    "\/sophocles.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sophocles.html",
       "oF" : 0
     }
   },
