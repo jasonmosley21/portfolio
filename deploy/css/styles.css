@@ -372,7 +372,7 @@ template {
 }
 
 body {
-  background: #a4daf0;
+  background: #191a1a;
 }
 
 ul {
@@ -399,7 +399,7 @@ ul {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
   font-family: "Poppins", sans-serif;
   color: #e9f6fb;
   margin: 0;
@@ -469,6 +469,11 @@ p {
 h5 {
   font-size: 8px;
   line-height: auto;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* =============
@@ -546,6 +551,9 @@ nav section #navmenu li a img {
 /* =============
     Footer
 ============= */
+#landinggrid {
+  background: #a4daf0;
+}
 @media (min-width: 1280px) {
   #landinggrid {
     display: grid;
@@ -638,7 +646,7 @@ nav section #navmenu li a img {
   #aboutme {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: ". text text text text text text pfp pfp pfp pfp .";
+    grid-template-areas: ". text text text text text text pfp pfp pfp pfp ." ". resume resume resume resume resume resume . . . . .";
     gap: 16px;
   }
 }
@@ -731,6 +739,22 @@ nav section #navmenu li a img {
   #aboutme #socials a img {
     height: 32px;
   }
+}
+#aboutme div {
+  display: flex;
+  justify-content: center;
+  grid-area: resume;
+}
+#aboutme div a {
+  background: #a4daf0;
+  width: 210px;
+  padding: 24px;
+  border-radius: 21px;
+  text-align: center;
+  text-decoration: none;
+}
+#aboutme div a:hover {
+  background: rgba(164, 218, 240, 0.5);
 }
 
 @media (min-width: 744px) {
@@ -1132,9 +1156,6 @@ nav section #navmenu li a img {
   margin-left: 128px;
   margin-top: 8px;
 }
-#designworks {
-  background: #a4daf0;
-}
 @media (min-width: 744px) {
   #designworks ul {
     display: grid;
@@ -1201,6 +1222,7 @@ nav section #navmenu li a img {
   #designworks ul li div img {
     height: 45vw;
     width: auto;
+    max-width: 40vw;
   }
 }
 #designworks ul li div div {

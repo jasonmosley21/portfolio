@@ -5,7 +5,8 @@
     @include laptop {
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        grid-template-areas: ". text text text text text text pfp pfp pfp pfp .";
+        grid-template-areas: ". text text text text text text pfp pfp pfp pfp ."
+        ". resume resume resume resume resume resume . . . . .";
         gap: 16px;
     }
 
@@ -82,4 +83,21 @@
             }
         }
     }
+    div{
+        display: flex;
+        justify-content: center;
+        grid-area: resume;
+        a{
+        background: $iceblue;
+        width: 210px;
+        padding: 24px;
+        border-radius: 21px;
+        text-align: center;
+        text-decoration: none;
+    
+    }
+    a:hover{
+        background: rgba($color: #a4daf0, $alpha: 0.5);
+    }
+}
 }

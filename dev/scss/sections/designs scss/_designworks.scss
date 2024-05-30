@@ -1,5 +1,5 @@
 #designworks{
-    background: $iceblue;
+  
     ul{
         @include tablet {
             display: grid;
@@ -126,7 +126,8 @@
                     
                     @include tablet{
                         height: 45vw;
-                        width: auto; 
+                        width: auto;
+                        max-width: 40vw;
                     }
                 }
                 

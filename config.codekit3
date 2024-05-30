@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/4dx.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/4dx.html",
-      "oF" : 0
-    },
     "\/artwork.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -71,14 +63,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/designs.html",
-      "oF" : 0
-    },
-    "\/deploy\/home.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
       "oF" : 0
     },
     "\/deploy\/img\/1back.jpg" : {
@@ -168,6 +152,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/002-Bus Inner.png" : {
+      "ft" : 32768,
+      "iS" : 9206986,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/002-Bus Inner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -275,6 +272,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/4dx.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/4dx.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/4dxcover.jpg" : {
       "ft" : 16384,
@@ -411,6 +418,149 @@
       "iS" : 21040947,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/6spread1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7back.jpg" : {
+      "ft" : 16384,
+      "iS" : 4921800,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7back.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 5364929,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7front.jpg" : {
+      "ft" : 16384,
+      "iS" : 4818869,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7front.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7open.jpg" : {
+      "ft" : 16384,
+      "iS" : 2232690,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7open.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7spread1.png" : {
+      "ft" : 32768,
+      "iS" : 10578230,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7spread1.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7spread2.png" : {
+      "ft" : 32768,
+      "iS" : 1480088,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7spread2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/7toc.jpg" : {
+      "ft" : 16384,
+      "iS" : 2848785,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/7toc.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/8cover.png" : {
+      "ft" : 32768,
+      "iS" : 9584345,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/8cover.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/8iphone.png" : {
+      "ft" : 32768,
+      "iS" : 10157554,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/8iphone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/8laptop.png" : {
+      "ft" : 32768,
+      "iS" : 1314572,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/8laptop.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/8tablet.png" : {
+      "ft" : 32768,
+      "iS" : 8855664,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/8tablet.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -613,6 +763,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/dd.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/dd.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/dracon.png" : {
       "ft" : 32768,
@@ -859,6 +1019,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/locup.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/locup.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/madisoncharm.png" : {
       "ft" : 32768,
       "iS" : 3599586,
@@ -884,6 +1054,29 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/mm.png" : {
+      "ft" : 32768,
+      "iS" : 2479,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/mm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/mm.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/mm.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/modemoderne.png" : {
       "ft" : 32768,
@@ -950,6 +1143,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/p=b.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/p=b.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/paintbrush.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -998,16 +1201,24 @@
     },
     "\/deploy\/img\/profilepic.png" : {
       "ft" : 32768,
-      "iS" : 442565,
+      "iS" : 341503,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/profilepic.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/profilepic.tif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/profilepic.tif",
+      "oF" : 0
     },
     "\/deploy\/img\/selfhatred.png" : {
       "ft" : 32768,
@@ -1061,6 +1272,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/spiral.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/spiral.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/thewagner.png" : {
       "ft" : 32768,
       "iS" : 3332924,
@@ -1079,6 +1300,29 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/wagner.png" : {
+      "ft" : 32768,
+      "iS" : 129527,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/wagner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/wagner.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/wagner.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1107,6 +1351,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1117,6 +1369,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/Mosley,J_resume.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Mosley,J_resume.pdf",
+      "oF" : 0
     },
     "\/deploy\/project1.html" : {
       "cB" : 0,
@@ -1166,12 +1426,20 @@
       "oAP" : "\/deploy\/project6.html",
       "oF" : 0
     },
-    "\/designateddriver.html" : {
+    "\/deploy\/project7.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/designateddriver.html",
+      "oAP" : "\/deploy\/project7.html",
+      "oF" : 0
+    },
+    "\/deploy\/project8.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project8.html",
       "oF" : 0
     },
     "\/designs.html" : {
@@ -1210,7 +1478,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/designs\/designintro.html",
       "oF" : 0
     },
@@ -1226,7 +1494,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/home\/aboutme.html",
       "oF" : 0
     },
@@ -1382,6 +1650,54 @@
       "oAP" : "\/dev\/content\/project6\/project.html",
       "oF" : 0
     },
+    "\/dev\/content\/project7\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project7\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project7\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/project7\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project7\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project7\/project.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project8\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project8\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project8\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/project8\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/project8\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/project8\/project.html",
+      "oF" : 0
+    },
     "\/dev\/designs.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1435,7 +1751,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
@@ -1495,6 +1811,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/project6.html",
+      "oF" : 2
+    },
+    "\/dev\/project7.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project7.html",
+      "oF" : 2
+    },
+    "\/dev\/project8.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/project8.html",
       "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
@@ -1796,14 +2128,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/fromthedepths.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fromthedepths.html",
-      "oF" : 0
     },
     "\/gsap-bonus.tgz" : {
       "cB" : 0,
@@ -3511,6 +3835,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/002-Bus Inner.png" : {
+      "ft" : 32768,
+      "iS" : 9206986,
+      "oA" : 0,
+      "oAP" : "\/img\/002-Bus Inner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/2back.jpg" : {
       "ft" : 16384,
       "iS" : 1749965,
@@ -3615,6 +3952,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/4dx.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/4dx.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/4dxcover.jpg" : {
       "ft" : 16384,
       "iS" : 57750,
@@ -3695,13 +4042,13 @@
     },
     "\/img\/5cover.jpg" : {
       "ft" : 16384,
-      "iS" : 4339640,
+      "iS" : 4145203,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/5cover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3750,6 +4097,149 @@
       "iS" : 21040947,
       "oA" : 0,
       "oAP" : "\/img\/6spread1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7back.jpg" : {
+      "ft" : 16384,
+      "iS" : 4921800,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/7back.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 5364929,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/7cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7front.jpg" : {
+      "ft" : 16384,
+      "iS" : 2823462,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/7front.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7open.jpg" : {
+      "ft" : 16384,
+      "iS" : 2232690,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/7open.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7spread1.png" : {
+      "ft" : 32768,
+      "iS" : 2732378,
+      "oA" : 0,
+      "oAP" : "\/img\/7spread1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7spread2.png" : {
+      "ft" : 32768,
+      "iS" : 1480088,
+      "oA" : 0,
+      "oAP" : "\/img\/7spread2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/7toc.jpg" : {
+      "ft" : 16384,
+      "iS" : 2848785,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/7toc.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/8cover.png" : {
+      "ft" : 32768,
+      "iS" : 9584345,
+      "oA" : 0,
+      "oAP" : "\/img\/8cover.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/8iphone.png" : {
+      "ft" : 32768,
+      "iS" : 10157554,
+      "oA" : 0,
+      "oAP" : "\/img\/8iphone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/8laptop.png" : {
+      "ft" : 32768,
+      "iS" : 1314572,
+      "oA" : 0,
+      "oAP" : "\/img\/8laptop.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/8tablet.png" : {
+      "ft" : 32768,
+      "iS" : 8855664,
+      "oA" : 0,
+      "oAP" : "\/img\/8tablet.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3952,6 +4442,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/dd.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/dd.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/dracon.png" : {
       "ft" : 32768,
@@ -4198,6 +4698,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/locup.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/locup.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/madisoncharm.png" : {
       "ft" : 32768,
       "iS" : 3599586,
@@ -4223,6 +4733,29 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/mm.png" : {
+      "ft" : 32768,
+      "iS" : 2479,
+      "oA" : 0,
+      "oAP" : "\/img\/mm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/mm.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/mm.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/modemoderne.png" : {
       "ft" : 32768,
@@ -4289,6 +4822,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/p=b.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/p=b.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/paintbrush.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4337,7 +4880,7 @@
     },
     "\/img\/profilepic.png" : {
       "ft" : 32768,
-      "iS" : 442565,
+      "iS" : 99231,
       "oA" : 0,
       "oAP" : "\/img\/profilepic.png",
       "oF" : 0,
@@ -4347,6 +4890,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/profilepic.tif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/profilepic.tif",
+      "oF" : 0
     },
     "\/img\/selfhatred.png" : {
       "ft" : 32768,
@@ -4400,6 +4951,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/spiral.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/spiral.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/thewagner.png" : {
       "ft" : 32768,
       "iS" : 3332924,
@@ -4418,6 +4979,29 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/wagner.png" : {
+      "ft" : 32768,
+      "iS" : 129527,
+      "oA" : 0,
+      "oAP" : "\/img\/wagner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/wagner.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/wagner.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -4465,12 +5049,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/locup.html" : {
+    "\/Mosley,J_resume.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/locup.html",
+      "oAP" : "\/Mosley,J_resume.pdf",
       "oF" : 0
     },
     "\/node_modules" : {
@@ -4495,20 +5079,68 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/pandabamboo.html" : {
+    "\/project1.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pandabamboo.html",
+      "oAP" : "\/project1.html",
       "oF" : 0
     },
-    "\/sophocles.html" : {
+    "\/project2.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/sophocles.html",
+      "oAP" : "\/project2.html",
+      "oF" : 0
+    },
+    "\/project3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project3.html",
+      "oF" : 0
+    },
+    "\/project4.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project4.html",
+      "oF" : 0
+    },
+    "\/project5.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project5.html",
+      "oF" : 0
+    },
+    "\/project6.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project6.html",
+      "oF" : 0
+    },
+    "\/project7.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project7.html",
+      "oF" : 0
+    },
+    "\/project8.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project8.html",
       "oF" : 0
     }
   },
