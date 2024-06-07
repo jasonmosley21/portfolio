@@ -115,11 +115,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 32px;
             div{
                 position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                h2{
+                    font-size: 64px;
+                    @include tablet{
+                        font-size: 72px;
+                    }
+                }
                 img{
                     width: 100%;
                     

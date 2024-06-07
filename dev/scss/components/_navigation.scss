@@ -13,8 +13,9 @@ nav{
         width: 100%;
         max-width: 398px;
         height: 72px;
-        background: linear-gradient(180deg, $darkicebluetransp 32.81%, $darkiceblueinvis 100%), $oreoblacktransp;
-        background-blend-mode: multiply, normal;
+        background: $oreoblacktransp ;
+
+        background-blend-mode: multiply;
         border-radius: 21px;
         backdrop-filter: blur(21px);
         align-items: center;

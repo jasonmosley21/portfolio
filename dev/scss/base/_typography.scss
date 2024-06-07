@@ -9,53 +9,37 @@ h1,h2,h3,h4,h5,h6,p,a{
 }
 
 h1{
-    font-weight: 700;
-    font-size: 64px;
+    font-weight: 800;
+    font-size: 40px;
     line-height: 112%;
-    @include tablet{
-        font-size: 96px;
-    }
-    @include laptop{
-        font-size: 144px;
-    }
+
 }
 
 h2{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 32px;
-    @include tablet{
-        font-size: 48px;
-    }
-    @include laptop{
-        font-size: 72px;
-    }
+ 
 }
 h3{
-    font-weight: 400;
-    font-size: 16px;
-    @include tablet{
-        font-size: 24px;
-    }
-    @include laptop{
-        font-size: 36px;
-    }
+    font-weight: 700;
+    font-size: 24px;
 }
 p{
-    font-weight: 400;
-    font-size: 12px;
-    @include tablet{
-        font-size: 18px;
-    }
-    @include laptop{
-        font-size: 14px;
-    }
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
 }
 h5{
-    font-size: 8px;
+    font-size: 16px;
+    font-weight: 600;
     line-height: auto;
 }
 a{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
 }
 

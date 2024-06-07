@@ -406,74 +406,41 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 64px;
+  font-weight: 800;
+  font-size: 40px;
   line-height: 112%;
-}
-@media (min-width: 744px) {
-  h1 {
-    font-size: 96px;
-  }
-}
-@media (min-width: 1280px) {
-  h1 {
-    font-size: 144px;
-  }
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 32px;
-}
-@media (min-width: 744px) {
-  h2 {
-    font-size: 48px;
-  }
-}
-@media (min-width: 1280px) {
-  h2 {
-    font-size: 72px;
-  }
 }
 
 h3 {
-  font-weight: 400;
-  font-size: 16px;
-}
-@media (min-width: 744px) {
-  h3 {
-    font-size: 24px;
-  }
-}
-@media (min-width: 1280px) {
-  h3 {
-    font-size: 36px;
-  }
+  font-weight: 700;
+  font-size: 24px;
 }
 
 p {
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
-@media (min-width: 744px) {
-  p {
-    font-size: 18px;
-  }
-}
-@media (min-width: 1280px) {
-  p {
-    font-size: 14px;
-  }
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 h5 {
-  font-size: 8px;
+  font-size: 16px;
+  font-weight: 600;
   line-height: auto;
 }
 
 a {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* =============
@@ -512,8 +479,8 @@ nav section {
   width: 100%;
   max-width: 398px;
   height: 72px;
-  background: linear-gradient(180deg, rgba(15, 70, 92, 0.5) 32.81%, rgba(15, 70, 92, 0) 100%), rgba(50, 51, 52, 0.75);
-  background-blend-mode: multiply, normal;
+  background: rgba(50, 51, 52, 0.75);
+  background-blend-mode: multiply;
   border-radius: 21px;
   backdrop-filter: blur(21px);
   align-items: center;
@@ -553,6 +520,11 @@ nav section #navmenu li a img {
 ============= */
 #landinggrid {
   background: #a4daf0;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+  align-items: center;
+  gap: 0px;
 }
 @media (min-width: 1280px) {
   #landinggrid {
@@ -612,6 +584,7 @@ nav section #navmenu li a img {
   grid-area: design;
 }
 #landinggrid #landing #landingtext h1 {
+  font-size: 64px;
   margin-bottom: 32px;
   margin-top: 16px;
 }
@@ -620,6 +593,7 @@ nav section #navmenu li a img {
     margin-bottom: 32px;
     margin-top: 32px;
     margin-left: 32px;
+    font-size: 136px;
   }
 }
 #landinggrid #landing #arttext {
@@ -627,6 +601,7 @@ nav section #navmenu li a img {
   text-align: center;
 }
 #landinggrid #landing #arttext h1 {
+  font-size: 64px;
   margin-bottom: 8px;
   margin-top: 32px;
 }
@@ -634,6 +609,15 @@ nav section #navmenu li a img {
   #landinggrid #landing #arttext h1 {
     margin-bottom: 16px;
     margin-top: 32px;
+    font-size: 144px;
+  }
+}
+#landinggrid #landing #arttext h2 {
+  font-size: 20px;
+}
+@media (min-width: 744px) {
+  #landinggrid #landing #arttext h2 {
+    font-size: 40px;
   }
 }
 
@@ -641,6 +625,7 @@ nav section #navmenu li a img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 @media (min-width: 1280px) {
   #aboutme {
@@ -665,6 +650,7 @@ nav section #navmenu li a img {
 @media (min-width: 1280px) {
   #aboutme #profilepic {
     width: 100%;
+    margin-bottom: 0px;
   }
 }
 #aboutme section {
@@ -688,42 +674,52 @@ nav section #navmenu li a img {
 #aboutme section #aboutmetext {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   margin-bottom: 8px;
 }
 @media (min-width: 744px) {
   #aboutme section #aboutmetext {
     margin-bottom: 16px;
+    align-items: center;
   }
 }
-#aboutme section #aboutmetext h2 {
-  margin-bottom: 8px;
+#aboutme section #aboutmetext h1 {
+  margin-bottom: 32px;
 }
 @media (min-width: 744px) {
-  #aboutme section #aboutmetext h2 {
-    margin-bottom: 16px;
+  #aboutme section #aboutmetext h1 {
+    margin-bottom: 32px;
   }
 }
-#aboutme section #aboutmetext h4 {
-  width: 57%;
+#aboutme section #aboutmetext p {
+  width: 100%;
+  margin-bottom: 32px;
 }
 @media (min-width: 744px) {
-  #aboutme section #aboutmetext h4 {
+  #aboutme section #aboutmetext p {
     width: 70%;
+    margin-bottom: 32px;
   }
 }
 @media (min-width: 1280px) {
-  #aboutme section #aboutmetext h4 {
-    width: 100%;
+  #aboutme section #aboutmetext p {
+    width: 75%;
+    line-height: 24px;
   }
 }
 #aboutme #socials {
   display: flex;
   gap: 40px;
+  margin-bottom: 64px;
+}
+@media (min-width: 744px) {
+  #aboutme #socials {
+    margin-bottom: 0px;
+  }
 }
 #aboutme #socials a {
   height: 44px;
   width: 44px;
+  color: #a4daf0;
 }
 @media (min-width: 744px) {
   #aboutme #socials a {
@@ -733,28 +729,46 @@ nav section #navmenu li a img {
 }
 #aboutme #socials a img {
   height: 24px;
-  color: #c9cacb;
+  fill: #a4daf0;
 }
 @media (min-width: 744px) {
   #aboutme #socials a img {
     height: 32px;
   }
 }
+#aboutme #socials a:hover {
+  opacity: 50%;
+}
 #aboutme div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   grid-area: resume;
 }
-#aboutme div a {
+@media (min-width: 744px) {
+  #aboutme div {
+    flex-direction: row;
+  }
+}
+#aboutme div #resume {
   background: #a4daf0;
   width: 210px;
   padding: 24px;
   border-radius: 21px;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 32px;
 }
-#aboutme div a:hover {
+@media (min-width: 744px) {
+  #aboutme div #resume {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+}
+#aboutme div #resume:hover {
   background: rgba(164, 218, 240, 0.5);
+  cursor: pointer;
 }
 
 @media (min-width: 744px) {
@@ -1130,8 +1144,7 @@ nav section #navmenu li a img {
 }
 #works ul li img {
   width: 100%;
-  border-radius: 1000px;
-  margin-bottom: 128px;
+  margin-bottom: 32px;
 }
 @media (min-width: 744px) {
   #works ul li img {
@@ -1208,12 +1221,21 @@ nav section #navmenu li a img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 32px;
 }
 #designworks ul li div {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#designworks ul li div h2 {
+  font-size: 64px;
+}
+@media (min-width: 744px) {
+  #designworks ul li div h2 {
+    font-size: 72px;
+  }
 }
 #designworks ul li div img {
   width: 100%;
@@ -1276,6 +1298,7 @@ nav section #navmenu li a img {
 .hero article h2 {
   text-align: center;
   padding: 0 16px;
+  font-size: 72px;
 }
 .hero article p {
   padding: 32px 16px 0 16px;
@@ -1353,7 +1376,7 @@ nav section #navmenu li a img {
   grid-template-columns: 25% auto 25%;
   grid-template-areas: ". title ." ". gallery ." ". buttons .";
 }
-.process h2 {
+.process h1 {
   grid-area: title;
   text-align: center;
   padding-bottom: 64px;
@@ -1373,13 +1396,14 @@ nav section #navmenu li a img {
   justify-content: center;
   align-items: center;
   column-gap: 24px;
+  margin-top: 32px;
 }
 .process .buttons a {
   width: 48px;
   height: 48px;
-  background: #323334;
+  background: #a4daf0;
   border-radius: 100%;
 }
 .process .buttons a:hover {
-  background-color: #e9f6fb;
+  opacity: 50%;
 }

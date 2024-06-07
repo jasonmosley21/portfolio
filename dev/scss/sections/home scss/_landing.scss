@@ -1,5 +1,10 @@
 #landinggrid{
     background: $iceblue;
+display: grid;
+grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". content .";
+        align-items: center;
+        gap: 0px;
     @include tablet {
         
     }
@@ -12,7 +17,8 @@
     }
     #backgroundcolor{
         background: $darkblack; 
-       
+        
+    
         height: 100vh; 
         width: 50vw;
     }
@@ -31,6 +37,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+      
         @include laptop {
             display: grid;
             grid-template-columns: repeat(12,1fr);
@@ -51,12 +58,14 @@
         #landingtext{
             grid-area: design;
             h1{
+                font-size: 64px;
                 margin-bottom: 32px;
                 margin-top: 16px;
                 @include tablet {
                     margin-bottom: 32px;
                     margin-top: 32px;
                     margin-left: 32px;
+                    font-size: 136px;
                 }
             }
         }
@@ -65,12 +74,20 @@
             text-align: center;
        
             h1{
+                font-size: 64px;
                 margin-bottom: 8px;
                 margin-top: 32px;
          
                 @include tablet {
                     margin-bottom: 16px;
                     margin-top: 32px;
+                    font-size: 144px;
+                }
+            }
+            h2{
+                font-size: 20px;
+                @include tablet{
+                    font-size: 40px;
                 }
             }
 
