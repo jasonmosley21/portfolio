@@ -533,6 +533,7 @@ header {
   grid-template-areas: ". content .";
   align-items: center;
   gap: 0px;
+  overflow: hidden;
 }
 @media (min-width: 1280px) {
   #landinggrid {
