@@ -5,6 +5,7 @@ grid-template-columns: 16px auto 16px;
         grid-template-areas: ". content .";
         align-items: center;
         gap: 0px;
+        overflow: hidden;
     @include tablet {
         
     }

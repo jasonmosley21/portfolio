@@ -72,6 +72,13 @@ function cover7ANIME(){
     return tl;
 }
 
+function cover8ANIME(){
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#item8", scrub:true, markers: false, end:"50% 50%", start:"0% 90%"}});
+
+    tl.from("#item8", {opacity: 0, duration: 1})
+    return tl;
+}
+
 function projectANIME(){
     var tl = gsap.timeline({scrollTrigger:{trigger:"#img1", scrub:true, markers: false, end:"50% 50%", start:"0% 90%"}});
 
@@ -125,6 +132,7 @@ maintl.add(landingANIME())
 .add(cover5ANIME)
 .add(cover6ANIME)
 .add(cover7ANIME)
+.add(cover8ANIME)
 .add(projectANIME)
 .add(project2ANIME)
 .add(project3ANIME)
