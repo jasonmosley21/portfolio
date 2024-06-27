@@ -470,7 +470,7 @@ textarea {
 nav {
   position: fixed;
   width: 100%;
-  bottom: 56px;
+  bottom: 24px;
   justify-items: center;
   z-index: 1;
 }
@@ -515,18 +515,17 @@ nav section #navmenu li a img {
 /* =============
     Header
 ============= */
-/* =============
-    Footer
-============= */
-footer {
+header {
   background: #a4daf0;
   height: 48px;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* =============
+    Footer
+============= */
 #landinggrid {
   background: #a4daf0;
   display: grid;
