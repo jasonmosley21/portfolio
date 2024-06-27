@@ -518,9 +518,15 @@ nav section #navmenu li a img {
 header {
   background: #a4daf0;
   height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+  justify-items: center;
+  align-content: center;
+}
+header h5 {
+  grid-area: content;
+  text-align: center;
 }
 
 /* =============
