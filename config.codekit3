@@ -17,6 +17,14 @@
       "oAP" : "\/4dx.html",
       "oF" : 0
     },
+    "\/aaip.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/aaip.html",
+      "oF" : 0
+    },
     "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -61,6 +69,14 @@
       "oAP" : "\/deploy\/4dx.html",
       "oF" : 0
     },
+    "\/deploy\/aaip.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aaip.html",
+      "oF" : 0
+    },
     "\/deploy\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -95,14 +111,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/designateddriver.html",
-      "oF" : 0
-    },
-    "\/deploy\/designs.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/designs.html",
       "oF" : 0
     },
     "\/deploy\/fromthedepths.html" : {
@@ -630,6 +638,55 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/aaip.png" : {
+      "ft" : 32768,
+      "iS" : 1079802,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/aaip.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/aaip1.png" : {
+      "ft" : 32768,
+      "iS" : 25439073,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/aaip1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/aaip2.gif" : {
+      "ft" : 4194304,
+      "iS" : 10137137,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/aaip2.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/aaipcover.png" : {
+      "ft" : 32768,
+      "iS" : 14010314,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/aaipcover.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/adrianetext.png" : {
       "ft" : 32768,
       "iS" : 4871556,
@@ -652,32 +709,6 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/anamericaninparis.png" : {
-      "ft" : 32768,
-      "iS" : 1079802,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/anamericaninparis.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/anamericaninpariscropped.jpg" : {
-      "ft" : 16384,
-      "iS" : 815483,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/anamericaninpariscropped.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -834,6 +865,84 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/dd4.png" : {
+      "ft" : 32768,
+      "iS" : 2544849,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dd4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ddprocess1.png" : {
+      "ft" : 32768,
+      "iS" : 2327500,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ddprocess1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ddprocess2.png" : {
+      "ft" : 32768,
+      "iS" : 3044615,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ddprocess2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ddprocess3.png" : {
+      "ft" : 32768,
+      "iS" : 537867,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ddprocess3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ddprocess4.png" : {
+      "ft" : 32768,
+      "iS" : 513445,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ddprocess4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ddprocess5.png" : {
+      "ft" : 32768,
+      "iS" : 409435,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ddprocess5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/dracon.png" : {
       "ft" : 32768,
@@ -1468,76 +1577,12 @@
       "oAP" : "\/deploy\/Mosley,J_resume.pdf",
       "oF" : 0
     },
-    "\/deploy\/project1.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project1.html",
-      "oF" : 0
-    },
-    "\/deploy\/project2.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project2.html",
-      "oF" : 0
-    },
     "\/deploy\/project3.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/project3.html",
-      "oF" : 0
-    },
-    "\/deploy\/project4.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project4.html",
-      "oF" : 0
-    },
-    "\/deploy\/project5.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project5.html",
-      "oF" : 0
-    },
-    "\/deploy\/project6.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project6.html",
-      "oF" : 0
-    },
-    "\/deploy\/project7.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project7.html",
-      "oF" : 0
-    },
-    "\/deploy\/project8.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project8.html",
-      "oF" : 0
-    },
-    "\/deploy\/project9.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project9.html",
       "oF" : 0
     },
     "\/deploy\/project10.html" : {
@@ -1588,6 +1633,14 @@
       "oAP" : "\/deploy\/4dx.html",
       "oF" : 2
     },
+    "\/dev\/aaip.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aaip.html",
+      "oF" : 2
+    },
     "\/dev\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1604,6 +1657,54 @@
       "oAP" : "\/deploy\/artwork.html",
       "oF" : 2
     },
+    "\/dev\/content\/4dx\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/4dx\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/4dx\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/4dx\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/4dx\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/4dx\/project.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/aaip\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/aaip\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/aaip\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/aaip\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/aaip\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/aaip\/project.html",
+      "oF" : 0
+    },
     "\/dev\/content\/artwork\/artworkintro.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1618,6 +1719,30 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/artwork\/works.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/dd\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/dd\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/dd\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/dd\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/dd\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/dd\/project.html",
       "oF" : 0
     },
     "\/dev\/content\/designs\/designintro.kit" : {
@@ -1636,6 +1761,30 @@
       "oAP" : "\/dev\/content\/designs\/designworks.html",
       "oF" : 0
     },
+    "\/dev\/content\/fromthedepths\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/fromthedepths\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/fromthedepths\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/fromthedepths\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/fromthedepths\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/fromthedepths\/project.html",
+      "oF" : 0
+    },
     "\/dev\/content\/home\/aboutme.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1652,172 +1801,52 @@
       "oAP" : "\/dev\/content\/home\/landing.html",
       "oF" : 0
     },
-    "\/dev\/content\/project1\/landing.kit" : {
+    "\/dev\/content\/locup\/landing.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/project1\/landing.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project1\/process.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project1\/process.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project1\/project.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project1\/project.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project2\/landing.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project2\/landing.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project2\/process.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/project2\/process.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project2\/project.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project2\/project.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project3\/landing.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project3\/landing.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project3\/process.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/project3\/process.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project3\/project.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project3\/project.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project4\/landing.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project4\/landing.html",
+      "oAP" : "\/dev\/content\/locup\/landing.html",
       "oF" : 1
     },
-    "\/dev\/content\/project4\/process.kit" : {
+    "\/dev\/content\/locup\/process.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/project4\/process.html",
+      "oAP" : "\/dev\/content\/locup\/process.html",
       "oF" : 1
     },
-    "\/dev\/content\/project4\/project.kit" : {
+    "\/dev\/content\/locup\/project.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/project4\/project.html",
+      "oAP" : "\/dev\/content\/locup\/project.html",
       "oF" : 1
     },
-    "\/dev\/content\/project5\/landing.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project5\/landing.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project5\/process.kit" : {
+    "\/dev\/content\/panda=bamboo\/landing.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/project5\/process.html",
+      "oAP" : "\/dev\/content\/panda=bamboo\/landing.html",
       "oF" : 0
     },
-    "\/dev\/content\/project5\/project.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project5\/project.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project6\/landing.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project6\/landing.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project6\/process.kit" : {
+    "\/dev\/content\/panda=bamboo\/process.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/project6\/process.html",
+      "oAP" : "\/dev\/content\/panda=bamboo\/process.html",
       "oF" : 0
     },
-    "\/dev\/content\/project6\/project.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project6\/project.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project7\/landing.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project7\/landing.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project7\/process.kit" : {
+    "\/dev\/content\/panda=bamboo\/project.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/project7\/process.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/project7\/project.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/project7\/project.html",
+      "oAP" : "\/dev\/content\/panda=bamboo\/project.html",
       "oF" : 0
     },
     "\/dev\/content\/project8\/landing.kit" : {
@@ -1892,6 +1921,54 @@
       "oAP" : "\/dev\/content\/project10\/project.html",
       "oF" : 0
     },
+    "\/dev\/content\/sophocles\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/sophocles\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/sophocles\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/sophocles\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/sophocles\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/sophocles\/project.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/wagner\/landing.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/wagner\/landing.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/wagner\/process.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/wagner\/process.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/wagner\/project.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/wagner\/project.html",
+      "oF" : 0
+    },
     "\/dev\/designateddriver.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1912,7 +1989,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
@@ -4463,6 +4540,55 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/aaip.png" : {
+      "ft" : 32768,
+      "iS" : 1079802,
+      "oA" : 0,
+      "oAP" : "\/img\/aaip.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/aaip1.png" : {
+      "ft" : 32768,
+      "iS" : 25439073,
+      "oA" : 0,
+      "oAP" : "\/img\/aaip1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/aaip2.gif" : {
+      "ft" : 4194304,
+      "iS" : 10137137,
+      "oA" : 0,
+      "oAP" : "\/img\/aaip2.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/img\/aaipcover.png" : {
+      "ft" : 32768,
+      "iS" : 14010314,
+      "oA" : 0,
+      "oAP" : "\/img\/aaipcover.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/adrianetext.png" : {
       "ft" : 32768,
       "iS" : 2374145,
@@ -4485,32 +4611,6 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/anamericaninparis.png" : {
-      "ft" : 32768,
-      "iS" : 1079802,
-      "oA" : 0,
-      "oAP" : "\/img\/anamericaninparis.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/anamericaninpariscropped.jpg" : {
-      "ft" : 16384,
-      "iS" : 815483,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/anamericaninpariscropped.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4667,6 +4767,84 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/dd4.png" : {
+      "ft" : 32768,
+      "iS" : 2544849,
+      "oA" : 0,
+      "oAP" : "\/img\/dd4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ddprocess1.png" : {
+      "ft" : 32768,
+      "iS" : 2327500,
+      "oA" : 0,
+      "oAP" : "\/img\/ddprocess1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ddprocess2.png" : {
+      "ft" : 32768,
+      "iS" : 3044615,
+      "oA" : 0,
+      "oAP" : "\/img\/ddprocess2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ddprocess3.png" : {
+      "ft" : 32768,
+      "iS" : 537867,
+      "oA" : 0,
+      "oAP" : "\/img\/ddprocess3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ddprocess4.png" : {
+      "ft" : 32768,
+      "iS" : 513445,
+      "oA" : 0,
+      "oAP" : "\/img\/ddprocess4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/ddprocess5.png" : {
+      "ft" : 32768,
+      "iS" : 409435,
+      "oA" : 0,
+      "oAP" : "\/img\/ddprocess5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/dracon.png" : {
       "ft" : 32768,
@@ -5329,6 +5507,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/project2.html",
+      "oF" : 0
+    },
+    "\/project3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project3.html",
+      "oF" : 0
+    },
+    "\/project10.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/project10.html",
       "oF" : 0
     },
     "\/sophocles.html" : {

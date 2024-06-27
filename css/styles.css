@@ -470,7 +470,7 @@ textarea {
 nav {
   position: fixed;
   width: 100%;
-  bottom: 24px;
+  bottom: 56px;
   justify-items: center;
   z-index: 1;
 }
@@ -518,6 +518,15 @@ nav section #navmenu li a img {
 /* =============
     Footer
 ============= */
+footer {
+  background: #a4daf0;
+  height: 48px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #landinggrid {
   background: #a4daf0;
   display: grid;
@@ -1370,7 +1379,7 @@ nav section #navmenu li a img {
 }
 
 .process {
-  padding-top: 0px;
+  margin-bottom: 36px;
   background: #191a1a;
   display: grid;
   grid-template-columns: 25% auto 25%;
