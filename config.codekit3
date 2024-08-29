@@ -1199,6 +1199,45 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/locupprocess1.png" : {
+      "ft" : 32768,
+      "iS" : 939162,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/locupprocess1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/locupprocess2.png" : {
+      "ft" : 32768,
+      "iS" : 691276,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/locupprocess2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/locupprocess3.png" : {
+      "ft" : 32768,
+      "iS" : 236793,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/locupprocess3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/madisoncharm.png" : {
       "ft" : 32768,
       "iS" : 3599586,
@@ -1273,6 +1312,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/next.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/next.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/oglace.png" : {
       "ft" : 32768,
@@ -1368,6 +1417,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/prev.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/prev.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/profilepic.png" : {
       "ft" : 32768,
@@ -1791,6 +1850,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/home\/aboutme.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/home\/carousel.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/home\/carousel.html",
       "oF" : 0
     },
     "\/dev\/content\/home\/landing.kit" : {
@@ -2296,6 +2363,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/home scss\/_aboutme.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/home scss\/_carousel.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/home scss\/_carousel.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -5101,6 +5183,45 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/locupprocess1.png" : {
+      "ft" : 32768,
+      "iS" : 939162,
+      "oA" : 0,
+      "oAP" : "\/img\/locupprocess1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/locupprocess2.png" : {
+      "ft" : 32768,
+      "iS" : 691276,
+      "oA" : 0,
+      "oAP" : "\/img\/locupprocess2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/locupprocess3.png" : {
+      "ft" : 32768,
+      "iS" : 236793,
+      "oA" : 0,
+      "oAP" : "\/img\/locupprocess3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/madisoncharm.png" : {
       "ft" : 32768,
       "iS" : 1633883,
@@ -5175,6 +5296,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/next.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/next.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/oglace.png" : {
       "ft" : 32768,
@@ -5270,6 +5401,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/prev.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/prev.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/profilepic.png" : {
       "ft" : 32768,
