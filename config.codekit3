@@ -944,6 +944,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/depthsprocess1.png" : {
+      "ft" : 32768,
+      "iS" : 762613,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/depthsprocess1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/depthsprocess2.png" : {
+      "ft" : 32768,
+      "iS" : 2116852,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/depthsprocess2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/depthsprocess3.png" : {
+      "ft" : 32768,
+      "iS" : 240465,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/depthsprocess3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/depthsprocess4.png" : {
+      "ft" : 32768,
+      "iS" : 565342,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/depthsprocess4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/dracon.png" : {
       "ft" : 32768,
       "iS" : 9836986,
@@ -1832,7 +1884,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/fromthedepths\/process.html",
       "oF" : 0
     },
@@ -5700,7 +5752,7 @@
   "projectAttributes" : {
     "creationDate" : 705041455.99229598,
     "displayValue" : "portfolio",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_green",
     "iconImageWasSetByUser" : 0
   },
